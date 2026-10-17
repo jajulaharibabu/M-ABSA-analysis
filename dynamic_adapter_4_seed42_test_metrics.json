@@ -1,0 +1,8 @@
+{
+  "model": "dynamic_adapter_4",
+  "seed": 42,
+  "threshold": 0.05,
+  "micro_f1": 0.3018575851393189,
+  "macro_f1": 0.03155103822673362,
+  "subset_accuracy": 0.0
+}

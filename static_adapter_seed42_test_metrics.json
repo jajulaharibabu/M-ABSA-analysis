@@ -1,0 +1,8 @@
+{
+  "model": "static_adapter",
+  "seed": 42,
+  "threshold": 0.05,
+  "micro_f1": 0.2926481084939329,
+  "macro_f1": 0.043022556323964754,
+  "subset_accuracy": 0.0
+}

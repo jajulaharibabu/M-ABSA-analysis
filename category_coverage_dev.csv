@@ -1,0 +1,25 @@
+﻿category,count
+material relatability,1
+polarity positive,1
+course value,2
+assignments quantity,2
+presentation quantity,2
+material quantity,2
+faculty relatability,3
+presentation relatability,3
+assignments comprehensiveness,3
+assignments relatability,3
+course workload,4
+faculty response,4
+assignments workload,5
+course relatability,5
+material comprehensiveness,6
+presentation comprehensiveness,8
+faculty comprehensiveness,14
+assignments quality,15
+material quality,16
+presentation quality,19
+course comprehensiveness,21
+course quality,26
+faculty general,29
+course general,121

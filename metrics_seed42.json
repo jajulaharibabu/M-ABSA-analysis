@@ -1,0 +1,48 @@
+{
+  "model": "FacebookAI/xlm-roberta-base",
+  "task": "category_sentiment_classification",
+  "language": "Arabic",
+  "domain": "Coursera",
+  "seed": 42,
+  "max_length": 128,
+  "train_rows": 1123,
+  "dev_rows": 327,
+  "test_rows": 696,
+  "num_labels": 77,
+  "dev_metrics": {
+    "dev_loss": 2.8566343784332275,
+    "dev_accuracy": 0.3761467889908257,
+    "dev_macro_precision": 0.008003123170017569,
+    "dev_macro_recall": 0.02127659574468085,
+    "dev_macro_f1": 0.011631205673758865,
+    "dev_weighted_precision": 0.14148640686810876,
+    "dev_weighted_recall": 0.3761467889908257,
+    "dev_weighted_f1": 0.2056269113149847,
+    "dev_runtime": 34.3538,
+    "dev_samples_per_second": 9.519,
+    "dev_steps_per_second": 1.193,
+    "epoch": 1.0
+  },
+  "test_metrics": {
+    "test_loss": 3.0182950496673584,
+    "test_accuracy": 0.33189655172413796,
+    "test_macro_precision": 0.005531609195402299,
+    "test_macro_recall": 0.016666666666666666,
+    "test_macro_f1": 0.008306364617044228,
+    "test_weighted_precision": 0.11015532104637338,
+    "test_weighted_recall": 0.33189655172413796,
+    "test_weighted_f1": 0.16541122642562214,
+    "test_runtime": 71.0768,
+    "test_samples_per_second": 9.792,
+    "test_steps_per_second": 1.224,
+    "epoch": 1.0
+  },
+  "train_metrics": {
+    "train_runtime": 1591.4722,
+    "train_samples_per_second": 0.706,
+    "train_steps_per_second": 0.177,
+    "total_flos": 26991671991870.0,
+    "train_loss": 3.2944370877276112,
+    "epoch": 1.0
+  }
+}

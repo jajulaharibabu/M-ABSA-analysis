@@ -1,0 +1,41 @@
+{
+  "model": "FacebookAI/xlm-roberta-base",
+  "task": "weighted_multi_label_category_classification",
+  "language": "Arabic",
+  "domain": "Coursera",
+  "seed": 42,
+  "epochs": 3,
+  "max_length": 128,
+  "train_rows": 1493,
+  "dev_rows": 320,
+  "test_rows": 321,
+  "num_categories": 30,
+  "dev_metrics": {
+    "dev_loss": 0.1408652812242508,
+    "dev_micro_f1": 0.0,
+    "dev_macro_f1": 0.0,
+    "dev_subset_accuracy": 0.178125,
+    "dev_runtime": 34.037,
+    "dev_samples_per_second": 9.402,
+    "dev_steps_per_second": 1.175,
+    "epoch": 3.0
+  },
+  "test_metrics": {
+    "test_loss": 0.1384211927652359,
+    "test_micro_f1": 0.0,
+    "test_macro_f1": 0.0,
+    "test_subset_accuracy": 0.17757009345794392,
+    "test_runtime": 36.4983,
+    "test_samples_per_second": 8.795,
+    "test_steps_per_second": 1.123,
+    "epoch": 3.0
+  },
+  "train_metrics": {
+    "train_runtime": 2989.6291,
+    "train_samples_per_second": 1.498,
+    "train_steps_per_second": 0.375,
+    "total_flos": 93673093163364.0,
+    "train_loss": 0.16252292142832342,
+    "epoch": 3.0
+  }
+}

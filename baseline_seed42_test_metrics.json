@@ -1,0 +1,8 @@
+{
+  "model": "baseline",
+  "seed": 42,
+  "threshold": 0.05,
+  "micro_f1": 0.2359882005899705,
+  "macro_f1": 0.04486953321396311,
+  "subset_accuracy": 0.0
+}

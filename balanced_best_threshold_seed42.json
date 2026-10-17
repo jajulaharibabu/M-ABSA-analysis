@@ -1,0 +1,7 @@
+{
+  "checkpoint": "C:\\Users\\Admin\\Desktop\\ABSA_Project\\outputs\\xlmr_weighted_category_multilabel_seed42\\checkpoint-374",
+  "best_threshold": 0.05,
+  "balanced_score": 0.19969706167681422,
+  "dev_macro_f1": 0.018291761148904007,
+  "dev_micro_f1": 0.38110236220472443
+}

@@ -1,0 +1,7 @@
+{
+  "checkpoint": "C:\\Users\\Admin\\Desktop\\ABSA_Project\\outputs\\xlmr_dynamic_adapter_seed42\\checkpoint-1122",
+  "best_threshold": 0.31,
+  "balanced_score": 0.060532682414296865,
+  "dev_macro_f1": 0.057017891941341846,
+  "dev_micro_f1": 0.06404747288725189
+}

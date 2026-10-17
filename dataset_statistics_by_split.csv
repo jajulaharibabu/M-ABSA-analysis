@@ -1,0 +1,4 @@
+new_split,num_reviews,mean_categories_per_review,proportion_no_category,num_distinct_categories,min_category_frequency,median_category_frequency,max_category_frequency
+dev,320.0,0.984375,0.178125,56.0,1.0,2.0,102.0
+test,321.0,1.0186915887850467,0.17757009345794392,54.0,1.0,3.0,108.0
+train,1493.0,0.9886135298057602,0.18821165438714,85.0,1.0,4.0,486.0

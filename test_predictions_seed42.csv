@@ -1,0 +1,697 @@
+﻿sentence,true_label,predicted_label,correct
+نعم، يشكل التقاط أدوات جديدة على الفور جزءًا كبيرًا من البرمجة، ولكن سيكون من الرائع فهم النظريات الأساسية وراء كيفية عمل بعض هذه المكتبات والمفاهيم مرة واحدة على الأقل قبل الانغماس في هذا الواقع!,material comprehensiveness|||negative,course general|||positive,0
+نعم، يشكل التقاط أدوات جديدة على الفور جزءًا كبيرًا من البرمجة، ولكن سيكون من الرائع فهم النظريات الأساسية وراء كيفية عمل بعض هذه المكتبات والمفاهيم مرة واحدة على الأقل قبل الانغماس في هذا الواقع!,course relatability|||negative,course general|||positive,0
+شكرا جزيلا لك، دكتور تشاك والفريق!,faculty general|||positive,course general|||positive,0
+سيكون من الرائع إذا قمت بتجميع جميع الأدوات اللازمة لدورة تدريبية معينة في صورة آلة افتراضية محددة مسبقًا وجاهزة للتنزيل من الدورة التدريبية.,course general|||negative,course general|||positive,0
+الشيء السلبي الوحيد الذي يمكنني قوله هو أنني آمل أن يتمكنوا من تحديث الوقت المستغرق لـ تصنيف المهام على الخادم.,grades general|||negative,course general|||positive,0
+ربما أنها قصيرة قليلا .,course quality|||negative,course general|||positive,0
+الواجبات صعبة ومثيرة للاهتمام.,assignments quality|||positive,course general|||positive,0
+رائع دورة للمبتدئين الحقيقيين.,course general|||positive,course general|||positive,1
+إنه جيد حقًا نظرة عامة حول إنتاج الألبان وإدارتها.,course general|||positive,course general|||positive,1
+الاهتمام الدقيق بالتفاصيل، والحدس حول المزالق الخاصة للمتعلمين الجدد (والأكثر كفاءة أيضًا، في الواقع) وبالطبع بالطبع، فإن الفكاهة الساخرة من الذات كلها تساهم في جعل هذا المتقدم بالفعل بالطبع ممتعًا للغاية!,course general|||positive,course general|||positive,1
+الاهتمام الدقيق بالتفاصيل، والحدس حول المزالق الخاصة للمتعلمين الجدد (والأكثر كفاءة أيضًا، في الواقع) وبالطبع بالطبع، فإن الفكاهة الساخرة من الذات كلها تساهم في جعل هذا المتقدم بالفعل بالطبع ممتعًا للغاية!,course quality|||positive,course general|||positive,0
+الاهتمام الدقيق بالتفاصيل، والحدس حول المزالق الخاصة للمتعلمين الجدد (والأكثر كفاءة أيضًا، في الواقع) وبالطبع بالطبع، فإن الفكاهة الساخرة من الذات كلها تساهم في جعل هذا المتقدم بالفعل بالطبع ممتعًا للغاية!,course comprehensiveness|||positive,course general|||positive,0
+ربما كنت سأستمتع بالتجربة بأكملها بالطبع أكثر إذا لم يكن التصميم تقنيًا للغاية.,course general|||neutral,course general|||positive,0
+الآن أشعر أن لدي فكرة جيدة عن ماهية هندسة البرمجيات.,course general|||positive,course general|||positive,1
+لا أمانع، ولكن بعض التعليقات لم تكن ذات صلة، لذا كان الأمر غريبًا بعض الشيء.,presentation relatability|||negative,course general|||positive,0
+واضح جداً محاضرات .,presentation comprehensiveness|||positive,course general|||positive,0
+لقد تعلمت الكثير واستوعبت واحتفظت بالمزيد فقط بسبب أسلوبه وطرق التدريس.,course general|||positive,course general|||positive,1
+لقد تعلمت الكثير واستوعبت واحتفظت بالمزيد فقط بسبب أسلوبه وطرق التدريس.,faculty general|||positive,course general|||positive,0
+كانت قاعدة بيانات Oracle على Virtual Box وتكامل البيانات Pentaho بمثابة كابوس.,material quality|||negative,course general|||positive,0
+التمارين و الدروس التعليمية مفيدة جدًا لتكملة المحاضرات وتساعد في زيادة مهاراتنا في المجال.,assignments quality|||positive,course general|||positive,0
+التمارين و الدروس التعليمية مفيدة جدًا لتكملة المحاضرات وتساعد في زيادة مهاراتنا في المجال.,presentation quality|||positive,course general|||positive,0
+التمارين و الدروس التعليمية مفيدة جدًا لتكملة المحاضرات وتساعد في زيادة مهاراتنا في المجال.,presentation relatability|||positive,course general|||positive,0
+الدورة  صعبة وتحتاج إلى معرفة مسبقة بلغة R.,course general|||negative,course general|||positive,0
+أتمنى أن يكون هناك المنهج الدراسي كاملاً يمكننا الوصول إليه في بداية الدورة للتحضير للمهمة.,material quality|||negative,course general|||positive,0
+لقد أحببت بساطة الدورة .,course general|||positive,course general|||positive,1
+بالإضافة إلى ذلك، بما أن الطلاب يبدأون في قراءة العديد من المستندات مستندات وما إلى ذلك، فيجب زيادة توقعات الوقت لكل أسبوع.,material quantity|||negative,course general|||positive,0
+بالإضافة إلى ذلك، بما أن الطلاب يبدأون في قراءة العديد من المستندات مستندات وما إلى ذلك، فيجب زيادة توقعات الوقت لكل أسبوع.,course workload|||negative,course general|||positive,0
+مرة أخرى، البروفيسور تشايكين ضرب الكرة خارج الملعب من حيث التصميم (عملي للغاية!) للدروس وتقديم المحتوى.,faculty general|||positive,course general|||positive,0
+يتم شرح التعلم بعبارات بسيطة والنصائح وأفضل الممارسات تلتصق حقًا بذاكرتك.,material quality|||positive,course general|||positive,0
+لقد استمتعت بها حقا .,course general|||positive,course general|||positive,1
+من الواضح أن المعلم خبير في الموضوع وكذلك في التدريس ويتم توصيل المعلومات بوضوح شديد.,faculty general|||positive,course general|||positive,0
+من الواضح أن المعلم خبير في الموضوع وكذلك في التدريس ويتم توصيل المعلومات بوضوح شديد.,faculty comprehensiveness|||positive,course general|||positive,0
+دعم قليل أو لا يوجد دعم على الإطلاق.,course general|||negative,course general|||positive,0
+فهو يعطيك الشعور بأنك في فصل دراسي حقيقي.,course general|||positive,course general|||positive,1
+لقد أوضحت الكثير من الأمور التي كانت غامضة من قبل.,course comprehensiveness|||positive,course general|||positive,0
+الإزعاج الحقيقي مع هذا الدورة هو أن المنتدى لا يعمل.,material quality|||negative,course general|||positive,0
+الإزعاج الحقيقي مع هذا الدورة هو أن المنتدى لا يعمل.,course general|||negative,course general|||positive,0
+أقدر بشدة حصولي على فرصة أخذ هذه الدورة .,course general|||positive,course general|||positive,1
+السبب في أنني قمت بتقييم 3 نجوم فقط هو أن الشيء المفيد الوحيد الذي ستتعلمه في هذه الدورة الدورة هو إطار عمل التفكير التصميمي.,course quality|||negative,course general|||positive,0
+سأستمر بالتأكيد .,course general|||positive,course general|||positive,1
+لقد كانت دورة جيدة دورة، ومع ذلك، يبدو أن (التسجيل 2:) كان من الدورة السابقة دورة.,course general|||positive,course general|||positive,1
+لقد كانت دورة جيدة دورة، ومع ذلك، يبدو أن (التسجيل 2:) كان من الدورة السابقة دورة.,presentation quality|||negative,course general|||positive,0
+لم أستخدمه من قبل ولا أفهم لماذا يجب أن أترك بياناتي الشخصية في مكان ما إذا لم أخطط لاستخدام هذه الخدمة في المستقبل.,course general|||negative,course general|||positive,0
+من الرائع أن أكون جزءًا من (دورة 1:) التي تضم العديد من الأفراد المتحمسين والمكرسين لصحة الكوكب.,course general|||positive,course general|||positive,1
+لقد اتخذ نهجًا رائعًا حقًا في تقديم هذه الدورة.,faculty comprehensiveness|||positive,course general|||positive,0
+يتوافق هذا (الدورة التدريبية رقم 1) بشكل مثالي مع المعرفة التي تعلمتها.,course general|||positive,course general|||positive,1
+ومع ذلك، فإنني أقدر التحدي وخطورة الموضوع.,course quality|||positive,course general|||positive,0
+قد يكون مفيدًا لبعض الأشخاص (خاصة أولئك الذين يعملون في مجال B2C أو يرغبون في اللعب بالتكنولوجيا)، لكنه كان مضيعة للوقت بالنسبة لي.,course general|||negative,course general|||positive,0
+كان هناك القليل من التوجيه في مهام البرمجة، ولكن قد يكون ذلك بسبب الخلفيات المذكورة أعلاه التي توصل إليها الطالب.,assignments quality|||neutral,course general|||positive,0
+أعتقد أنه سيكون من الأفضل لو تم توزيع هذه مقاطع الفيديو على بقية التخصص.,presentation quality|||neutral,course general|||positive,0
+لقد ساعدتني المفاهيم والتقنيات التي تعلمتها حتى الآن على التحسن حقًا في حياتي الجامعية كطالب وفي عملي كمدرس للغة الإنجليزية.,course general|||positive,course general|||positive,1
+تحدي الواجبات .,assignments quality|||positive,course general|||positive,0
+مثيرة، ثاقبة و,course general|||positive,course general|||positive,1
+مثيرة، ثاقبة و,course quality|||positive,course general|||positive,0
+المقدمة هي أكثر بكثير من هذه الدورة، في رأيي المحترم.,material quantity|||negative,course general|||positive,0
+لقد أعطتني هذه الدورة الدورة كل ما أحتاجه للتعمق أكثر وإجراء التجارب.,course general|||positive,course general|||positive,1
+المفاهيم التي تم تدريسها بشكل جيد.,presentation quality|||positive,course general|||positive,0
+بالإضافة إلى ذلك، أعتقد أن الشعور بالإرهاق قد يتسبب في توقف الكثير من الطلاب عن الدراسة قبل أن يفهموا حقًا كيف يمكن للموارد المتاحة (الوثائق، وما إلى ذلك) أن تساعدهم.,material quantity|||negative,course general|||positive,0
+لقد غيرت الطريقة التي أفكر بها حول العديد من الأشياء والتي أعتقد أن التعليم يجب أن يكون حولها.,course general|||positive,course general|||positive,1
+تحدي مع اللعبيّة.,course quality|||positive,course general|||positive,0
+ممتاز مدرسين و مادة.,faculty general|||positive,course general|||positive,0
+ممتاز مدرسين و مادة.,material quality|||positive,course general|||positive,0
+لا يمكن التغلب على ذلك .,course general|||positive,course general|||positive,1
+جيد جدًا ومليء بالمعلومات.,course quality|||positive,course general|||positive,0
+يقول جيف في البداية أن هذه مجرد نظرة عامة ويشير إلى بعض الموارد الأخرى.,course general|||positive,course general|||positive,1
+Lexalytics غير متوفر لنظام Mac، لذا لم أتمكن حتى من استخدامه.,course general|||negative,course general|||positive,0
+هذه الدورة الدورة منظمة بشكل جيد للغاية ومقدمة بشكل جيد للغاية.,course quality|||positive,course general|||positive,0
+تصميم الدورة مدروس ونفذ بشكل جيد.,course quality|||positive,course general|||positive,0
+لذا فإن المساعدة من المنتدى هي حاجة حقيقية لهذه الدورة لتعمل بسلاسة.,material quality|||negative,course general|||positive,0
+أرى قيمة في تضمين هذه المادة في التخصص ولكن ليس كدورة مباشرة دورة.,course general|||negative,course general|||positive,0
+لقد أصبح الأمر مربكًا ومربكًا بعض الشيء.,material comprehensiveness|||negative,course general|||positive,0
+لقد أصبح الأمر مربكًا ومربكًا بعض الشيء.,material quantity|||negative,course general|||positive,0
+أعتقد أنني تعلمت الكثير من هذه الدورة الدورة وأنا أتطلع إلى التخصص الدورة.,course general|||positive,course general|||positive,1
+كان من الممكن أن يكون هذا (الدورة التدريبية رقم 4) أفضل من خلال تضمين المزيد من الأمثلة، فـ (المحاضر رقم 2) ممل للغاية وللأسف لا أرى منتدى للمناقشة لهذا (الدورة التدريبية رقم 4)، بالإضافة إلى ذلك، كلما حاولت الرد على التعليقات، يتحول زر الرد إلى اللون الرمادي ولا يحدث شيء.,course general|||negative,course general|||positive,0
+كان من الممكن أن يكون هذا (الدورة التدريبية رقم 4) أفضل من خلال تضمين المزيد من الأمثلة، فـ (المحاضر رقم 2) ممل للغاية وللأسف لا أرى منتدى للمناقشة لهذا (الدورة التدريبية رقم 4)، بالإضافة إلى ذلك، كلما حاولت الرد على التعليقات، يتحول زر الرد إلى اللون الرمادي ولا يحدث شيء.,faculty general|||negative,course general|||positive,0
+كان من الممكن أن يكون هذا (الدورة التدريبية رقم 4) أفضل من خلال تضمين المزيد من الأمثلة، فـ (المحاضر رقم 2) ممل للغاية وللأسف لا أرى منتدى للمناقشة لهذا (الدورة التدريبية رقم 4)، بالإضافة إلى ذلك، كلما حاولت الرد على التعليقات، يتحول زر الرد إلى اللون الرمادي ولا يحدث شيء.,material quantity|||negative,course general|||positive,0
+تم تقديم قوة MATLAB بشكل جيد في هذه الفصول الدراسية.,material quality|||positive,course general|||positive,0
+يقدم الأسبوع الأخير من الدورة  أيضًا إطارًا مثيرًا للاهتمام وفعالًا للتفكير التصميمي.,course general|||positive,course general|||positive,1
+لقد استمتعت كثيرًا أثناء القيام بهذا الدورة التدريبية.,course general|||positive,course general|||positive,1
+شكرا لك أستاذ وشكرا لك كورسيرا .,course general|||positive,course general|||positive,1
+يجب عليك أن تكون موضوعيا .,course quality|||negative,course general|||positive,0
+يلهم المعلمين كيفية تدريس وممارسة الشخصية التي يمكن أن تؤثر على الطلاب لممارستها أينما كانوا.,course general|||positive,course general|||positive,1
+هذه دورة رائعة دورة وأود بالتأكيد أن أوصي بها للآخرين.,course general|||positive,course general|||positive,1
+مدهش !,course general|||positive,course general|||positive,1
+أندرو نج مدرس عظيم.,faculty general|||positive,course general|||positive,0
+ومع ذلك، فإن هذا برنامج الدورات هو مجرد هبوط تافه، ونهج غير ذي أهمية.,course quality|||negative,course general|||positive,0
+أعتقد أنني سأستخدم المعرفة التي حصلت عليها من الدورة  في أعمالي المستقبلية.,course general|||positive,course general|||positive,1
+كانت المهام الأسبوعية المهام صعبة وممتعة للغاية.,assignments quality|||positive,course general|||positive,0
+إن المادة التي تغطيها هذه الدورة كافية ومفيدة للغاية.,material quantity|||positive,course general|||positive,0
+إن المادة التي تغطيها هذه الدورة كافية ومفيدة للغاية.,material quality|||positive,course general|||positive,0
+لقد قمت بإتمام دورة Codecademy Python بأكملها course، والتي كانت تركز بشكل كبير على الجانب العملي، ومن الرائع الآن القيام بذلك course لفهم النظرية وراء ذلك، وما كنت أفعله بالفعل.,course general|||positive,course general|||positive,1
+لقد شارك الدكتور تشاك أيضًا ببعض المعلومات المثيرة للاهتمام (المقابلات طوال الدورة ، والتي شعرت أنها كانت مفيدة للغاية.,faculty general|||positive,course general|||positive,0
+لقد شارك الدكتور تشاك أيضًا ببعض المعلومات المثيرة للاهتمام (المقابلات طوال الدورة ، والتي شعرت أنها كانت مفيدة للغاية.,course quality|||positive,course general|||positive,0
+أود أن أقيم هذه الدورة الرائعة الدورة على أنها ممتازة تحت إشراف الدكتورة إيما جاكوي و الدكتورة جينيفر كاربري، المدربين الرائعين. شكرًا جزيلاً على كل التوضيحات اللطيفة المقدمة لأسئلتي، والجيد اختبارات الفيديو، والممتع مجموعات المشكلات والمثير للعقل الاختبارات.,course general|||positive,course general|||positive,1
+أود أن أقيم هذه الدورة الرائعة الدورة على أنها ممتازة تحت إشراف الدكتورة إيما جاكوي و الدكتورة جينيفر كاربري، المدربين الرائعين. شكرًا جزيلاً على كل التوضيحات اللطيفة المقدمة لأسئلتي، والجيد اختبارات الفيديو، والممتع مجموعات المشكلات والمثير للعقل الاختبارات.,faculty general|||positive,course general|||positive,0
+أود أن أقيم هذه الدورة الرائعة الدورة على أنها ممتازة تحت إشراف الدكتورة إيما جاكوي و الدكتورة جينيفر كاربري، المدربين الرائعين. شكرًا جزيلاً على كل التوضيحات اللطيفة المقدمة لأسئلتي، والجيد اختبارات الفيديو، والممتع مجموعات المشكلات والمثير للعقل الاختبارات.,assignments quality|||positive,course general|||positive,0
+أود أن أقيم هذه الدورة الرائعة الدورة على أنها ممتازة تحت إشراف الدكتورة إيما جاكوي و الدكتورة جينيفر كاربري، المدربين الرائعين. شكرًا جزيلاً على كل التوضيحات اللطيفة المقدمة لأسئلتي، والجيد اختبارات الفيديو، والممتع مجموعات المشكلات والمثير للعقل الاختبارات.,faculty response|||positive,course general|||positive,0
+أعجبني محتوى الدورة .,material quality|||positive,course general|||positive,0
+من ناحية أخرى، فإن الأسئلة تشبه مشاكل المعلوماتية الحيوية في العالم الحقيقي.,assignments quality|||positive,course general|||positive,0
+يتناول الموضوع بحيوية وروح تجذب الانتباه.,faculty general|||positive,course general|||positive,0
+مفيدة للغاية .,course quality|||positive,course general|||positive,0
+سأبدأ بالقول أن هذه (الدورة التدريبية 1) تعطي نظرة جيدة على مجموعة واسعة من تطبيقات الطباعة ثلاثية الأبعاد.,course quality|||positive,course general|||positive,0
+مارغريت ميلوني جعلت هذه الدورة ملونة بصوتها اللحني وشروحاتها الجيدة.,faculty general|||positive,course general|||positive,0
+مارغريت ميلوني جعلت هذه الدورة ملونة بصوتها اللحني وشروحاتها الجيدة.,faculty comprehensiveness|||positive,course general|||positive,0
+كانت الدورة  رائعة.,course general|||positive,course general|||positive,1
+أعتقد أنه كان خطأ من المصنف.,grades general|||negative,course general|||positive,0
+لقد كنت أقدر مساعدتك حقا.,faculty general|||positive,course general|||positive,0
+ممتاز دورة لتعلم أساسيات بايثون.,course general|||positive,course general|||positive,1
+تبدأ الدورة  بمستوى أساسي للغاية، وتتقدم بوتيرة يجب أن يشعر بها الشخص بالراحة التامة.,course general|||positive,course general|||positive,1
+تبدأ الدورة  بمستوى أساسي للغاية، وتتقدم بوتيرة يجب أن يشعر بها الشخص بالراحة التامة.,course quality|||positive,course general|||positive,0
+"الوقت المخصص لإجراء الاختبارات "" الاختبارات "" ليس طويلاً .",assignments quality|||neutral,course general|||positive,0
+تعلمت الكثير!,course general|||positive,course general|||positive,1
+كان من الممكن أن يتم ذلك بشكل أفضل بكثير وخاصة المحاضرات.,course general|||positive,course general|||positive,1
+إنها نقطة بداية جيدة جدًا لأي شخص مهتم بـ FSI.,course general|||positive,course general|||positive,1
+أود أن أوصي بأن يكون الأمر أكثر توجهاً نحو البيانات مثل دراسات الحالة مع أمثلة محددة بحيث تتقارب بشكل طبيعي مع إنشاء دراسة حالة لمدينة في نهاية الدورة كمشروع نهائي بدلاً من الدراسة الاختيارية.,course quality|||negative,course general|||positive,0
+شكرا جزيلا على الدورة الرائعة !,course general|||positive,course general|||positive,1
+كما نقترح تقليل المناقشات التي تركز على التحديات (حيث استغرقت الدورة  الكثير من الوقت) والتركيز أكثر على الخدمات الجديدة المختلفة التي تتبناها المدن المختلفة للحصول على الفوائد / التأثير على الناتج المحلي الإجمالي للمدينة.,course workload|||negative,course general|||positive,0
+أنا مهندس ميكانيكي متحدث باللغة الإسبانية ولدي هواية البرمجة فقط وتمكنت من إنهاء دراستي بدرجة 99٪.,course general|||positive,course general|||positive,1
+رائع دورة، قام المعلم بعمل جيد جدًا في شرح موضوع صعب للغاية لمجموعة من الطلاب ذوي خلفيات مختلفة بشكل كبير.,course general|||positive,course general|||positive,1
+رائع دورة، قام المعلم بعمل جيد جدًا في شرح موضوع صعب للغاية لمجموعة من الطلاب ذوي خلفيات مختلفة بشكل كبير.,faculty comprehensiveness|||positive,course general|||positive,0
+بالإضافة إلى ذلك سوف تتعلم وتتدرب مع المكتبات التي يمكن أن تجعل حياتك أبسط :),course general|||positive,course general|||positive,1
+مثيرة للاهتمام بشكل لا يصدق ومفيدة الموارد كذلك.,material quality|||positive,course general|||positive,0
+رائع بالطبع!,course general|||positive,course general|||positive,1
+رائع واجب تعلمت منه الكثير وأحببت البنية والشعور والأستاذ.,assignments quality|||positive,course general|||positive,0
+رائع واجب تعلمت منه الكثير وأحببت البنية والشعور والأستاذ.,course general|||positive,course general|||positive,1
+مثل هذا رائع الدورة.,course general|||positive,course general|||positive,1
+هذه (الدورة التدريبية رقم 1) مفيدة جدًا في تقديم أفكار حول كيفية القيام بذلك بشكل أفضل.,course general|||positive,course general|||positive,1
+لقد استمتعت بشكل خاص بجزء الأمان، والذي أتعامل معه بشكل عرضي في العمل ولم أستطع أبدًا استيعاب المفاهيم، ولكن الآن أستطيع ذلك.,course general|||positive,course general|||positive,1
+لقد استمتعت بشكل خاص بجزء الأمان، والذي أتعامل معه بشكل عرضي في العمل ولم أستطع أبدًا استيعاب المفاهيم، ولكن الآن أستطيع ذلك.,course comprehensiveness|||positive,course general|||positive,0
+في رأيي يجب أن تكون هذه (الدورة التدريبية 1) بمثابة نقطة بداية لأي فرد يريد تعلم التعلم الآلي.,course general|||positive,course general|||positive,1
+لقد أعادت الورشة  تنشيط مهاراتي الشعرية، والتي كانت ضعيفة إلى حد ما قبل أخذ الدورة.,course general|||positive,course general|||positive,1
+لا يمل من كثرة التفاصيل .,course quality|||positive,course general|||positive,0
+لا يمل من كثرة التفاصيل .,presentation quantity|||positive,course general|||positive,0
+إن أسبوعًا واحدًا من (الدورة التدريبية 1) يمكن أن يساعد حرفيًا العديد من الشركات / المنظمات غير الحكومية.,course general|||positive,course general|||positive,1
+لقد اعجبتني التمارين .,assignments quality|||positive,course general|||positive,0
+شكرا جزيلا على هذا الدورة .,course general|||positive,course general|||positive,1
+توفر هذه الدورة  جميع الأساسيات اللازمة مع القليل من الرياضيات التي تمنح إحساسًا بديهيًا بالخوارزميات.,course quality|||positive,course general|||positive,0
+الأستاذ دوغلاس كيرني هو مدرس ممتاز وممتع ولديه الكثير من الحكمة لينقلها.,faculty general|||positive,course general|||positive,0
+السيد بلوم هو معلم عظيم!,faculty general|||positive,course general|||positive,0
+رائعة للغاية!,course general|||positive,course general|||positive,1
+لقد حققت جزءًا من أهدافي من خلال اتخاذ هذا البرنامج .,course general|||positive,course general|||positive,1
+دورة منعشة جدًا دورة تركز على نمو شخصية الطلاب.,course general|||positive,course general|||positive,1
+سأوصي بهذا بكل سرور الدورة.,course general|||positive,course general|||positive,1
+كان من السهل حل الاختبارات بمجرد أن تأخذ الوقت الكافي لرؤية جميع مقاطع الفيديو ذات الصلة.,assignments comprehensiveness|||positive,course general|||positive,0
+كان من السهل حل الاختبارات بمجرد أن تأخذ الوقت الكافي لرؤية جميع مقاطع الفيديو ذات الصلة.,presentation relatability|||positive,course general|||positive,0
+من الصعب جدًا التعرف على تقنيات معالجة اللغة الطبيعية إذا لم تأخذ أي دورة تدريبية حولها من قبل.,course quality|||negative,course general|||positive,0
+الرسوم التوضيحية ممتعة!,presentation quality|||positive,course general|||positive,0
+جهز نفسك رغم ذلك - فهو يحتوي على قدر كبير جدًا من المواد.,material quantity|||negative,course general|||positive,0
+لقد استمتعت كثيرًا بهذه الدورة الدورة.,course general|||positive,course general|||positive,1
+ممتاز دورة خاصة إذا كنت تريد البدء من الصفر.,course general|||positive,course general|||positive,1
+حماسه هو الشيء الذي من شأنه أن يساعدك على الاستمرار في الدورة.,faculty general|||positive,course general|||positive,0
+المحاسبة الإدارية (الأسبوع الرابع) يغير تفكيري !!,course general|||positive,course general|||positive,1
+محبط للغاية من هذا الدورة النهائية.,course general|||negative,course general|||positive,0
+لقد تم تقديم العديد من المكتبات و المفاهيم الجديدة في الفصلين الأخيرين.,material quantity|||negative,course general|||positive,0
+لقد تم تقديم العديد من المكتبات و المفاهيم الجديدة في الفصلين الأخيرين.,material quality|||positive,course general|||positive,0
+إن كمية العمل والوقت الذي تم بذله في إنشاء هذه الدورة الشاملة والمتنوعة بالطبع مثيرة للإعجاب للغاية.,course workload|||positive,course general|||positive,0
+إن كمية العمل والوقت الذي تم بذله في إنشاء هذه الدورة الشاملة والمتنوعة بالطبع مثيرة للإعجاب للغاية.,course quality|||positive,course general|||positive,0
+إن كمية العمل والوقت الذي تم بذله في إنشاء هذه الدورة الشاملة والمتنوعة بالطبع مثيرة للإعجاب للغاية.,course comprehensiveness|||positive,course general|||positive,0
+شكرا لك Relay / GSE و Coursera!,faculty general|||positive,course general|||positive,0
+ونعم، مثل أي معلم جيد حقًا، ياكوف يشعر بالحاجة إلى الخوض في التفاصيل النظرية الدقيقة التي لا يرغب معظم الناس في الخوض فيها.,faculty general|||positive,course general|||positive,0
+كان (الفصل 2) منظمًا جيدًا وسهل الفهم.,course quality|||positive,course general|||positive,0
+كان (الفصل 2) منظمًا جيدًا وسهل الفهم.,course comprehensiveness|||positive,course general|||positive,0
+هذه ببساطة دورة رائعة .,course general|||positive,course general|||positive,1
+إنه يتطرق إلى مجال بحثي معقد إلى حد ما، لكنه نجح ببراعة في توصيل المهارات والأساليب الأساسية بوتيرة صعبة بعض الشيء، ولكن ليس إلى درجة التخويف.,material quality|||positive,course general|||positive,0
+إنه يتطرق إلى مجال بحثي معقد إلى حد ما، لكنه نجح ببراعة في توصيل المهارات والأساليب الأساسية بوتيرة صعبة بعض الشيء، ولكن ليس إلى درجة التخويف.,course quality|||positive,course general|||positive,0
+إنه يتطرق إلى مجال بحثي معقد إلى حد ما، لكنه نجح ببراعة في توصيل المهارات والأساليب الأساسية بوتيرة صعبة بعض الشيء، ولكن ليس إلى درجة التخويف.,course quality|||neutral,course general|||positive,0
+لقد حققت الدورة  بالتأكيد ما تدرسه - وهو التأكد من تذكرك للمادة عن طريق اختبار نفسك واستخدام التكرار المتباعد.,course general|||positive,course general|||positive,1
+أنا متأكد من أن مهاراتي في البرمجة وصلت إلى مستوى أعلى وقد أوصيت بها لجميع أصدقائي وزملائي.,course general|||positive,course general|||positive,1
+شكرا على المحتوى الرائع !,material quality|||positive,course general|||positive,0
+سيتم الإشارة إلى المواد مرارًا وتكرارًا.,material quality|||positive,course general|||positive,0
+إلى حد ما ومفيدة للغاية! ! !,course general|||positive,course general|||positive,1
+أنا أحب الأساتذة، ولكن لسوء الحظ، لا أشعر بارتباط كبير بي (لا أرى حقًا أهمية كبيرة بالنسبة لي لتحديد ما إذا كانت الشركة تقدم بيانات مالية مزيفة؛ أنا لست مستثمرًا، وعملي اليومي لا علاقة له حقًا بالبيانات المالية).,faculty general|||positive,course general|||positive,0
+أنا أحب الأساتذة، ولكن لسوء الحظ، لا أشعر بارتباط كبير بي (لا أرى حقًا أهمية كبيرة بالنسبة لي لتحديد ما إذا كانت الشركة تقدم بيانات مالية مزيفة؛ أنا لست مستثمرًا، وعملي اليومي لا علاقة له حقًا بالبيانات المالية).,course general|||negative,course general|||positive,0
+كانت المحاضرتان  رائعتين وممتعتين.,presentation quality|||positive,course general|||positive,0
+بالنظر إلى كل هذا، فهو رائع دورة.,course general|||positive,course general|||positive,1
+غير مخصص للمتعلمين الجدد في المجال الطبي.,course general|||neutral,course general|||positive,0
+كانت قائمة الأدبيات المقدمة واسعة النطاق ومختارة بشكل استراتيجي.,material quantity|||positive,course general|||positive,0
+كانت قائمة الأدبيات المقدمة واسعة النطاق ومختارة بشكل استراتيجي.,material quality|||positive,course general|||positive,0
+شكرا لك على محاضرتك الرائعة، دكتور تشانك .,faculty general|||positive,course general|||positive,0
+كنظرة عامة، تعمل هذه الفصل بشكل جيد.,course general|||positive,course general|||positive,1
+ومع ذلك، فإنه يوفر ما يكفي من المواد الإضافية المواد للعمل بها والوصول إلى عمق الموضوع كما يرغب المرء.,material quantity|||negative,course general|||positive,0
+ومع ذلك، فإنه يوفر ما يكفي من المواد الإضافية المواد للعمل بها والوصول إلى عمق الموضوع كما يرغب المرء.,course general|||negative,course general|||positive,0
+كان جميع المتحدثين  مفيدين للغاية ومثيرين للتفكير.,faculty comprehensiveness|||positive,course general|||positive,0
+كان جميع المتحدثين  مفيدين للغاية ومثيرين للتفكير.,faculty general|||positive,course general|||positive,0
+هزار .,course general|||positive,course general|||positive,1
+يمكنك أن تتوقع أن تتعلم القليل عن ماهية التعلم الآلي وكيفية القيام بذلك باستخدام حزمة Caret في R.,course general|||positive,course general|||positive,1
+المواد الخاصة بالدورة تم صياغتها بشكل دقيق ومفهوم.,material quality|||positive,course general|||positive,0
+المواد الخاصة بالدورة تم صياغتها بشكل دقيق ومفهوم.,material comprehensiveness|||positive,course general|||positive,0
+مرحبًا، شكرًا لك على هذه الدورة المنظمة جيدًا الدورة.,course quality|||positive,course general|||positive,0
+على الرغم من التحديات، فإن المادة رائعة جدًا وأي شخص مهتم بالتشريح سيتعلم شيئًا ما.,material quality|||positive,course general|||positive,0
+مدهش المعلمين ! !,faculty general|||positive,course general|||positive,0
+من حيث المحتوى وكيفية سير الدورة، فقد كان الأمر يتجاوز توقعاتي.,material quality|||positive,course general|||positive,0
+من حيث المحتوى وكيفية سير الدورة، فقد كان الأمر يتجاوز توقعاتي.,course quality|||positive,course general|||positive,0
+الدورة تعتمد على البحث الخارجي.,course relatability|||positive,course general|||positive,0
+موصى به .,course general|||positive,course general|||positive,1
+لقد كان الأمر صعبًا بعض الشيء في النهاية.,assignments quality|||positive,course general|||positive,0
+"لأن ليس كل ما يتم التساؤل عنه في ""الاختبارات"" هو ما تم التفكير فيه في الفصول الدراسية.",assignments quality|||neutral,course general|||positive,0
+هذه الدورة دورة ضرورية إذا كنت تتطلع إلى التعرف على مفاهيم التعلم الآلي أو اقتحام صناعة علوم البيانات.,course general|||positive,course general|||positive,1
+شعرت وكأنهم ذهبوا بسرعة كبيرة.,course general|||positive,course general|||positive,1
+سأحب ذلك .,course general|||positive,course general|||positive,1
+لقد استمتعت حقًا بالدورة  وتعلمت الكثير.,course general|||positive,course general|||positive,1
+المعلم سهل الفهم ويقوم بعمل جيد في تقديم اللغة.,faculty comprehensiveness|||positive,course general|||positive,0
+المعلم سهل الفهم ويقوم بعمل جيد في تقديم اللغة.,faculty general|||positive,course general|||positive,0
+المشاريع / المهام رائعة.,assignments quality|||positive,course general|||positive,0
+كان من الصعب متابعة هذه الدورة الدورة وكانت التجارب المجانية المقدمة تبدو وكأنها مفروضة علينا.,course comprehensiveness|||negative,course general|||positive,0
+تم شرح موضوعين بشكل جيد للغاية ويتبعان تسلسلًا منطقيًا.,material comprehensiveness|||positive,course general|||positive,0
+تم شرح موضوعين بشكل جيد للغاية ويتبعان تسلسلًا منطقيًا.,material quality|||positive,course general|||positive,0
+كانت المهمتان : أكثر تعقيدًا بعض الشيء من المهام الموجودة في الدورة الأولى، ولكنها لا تزال ممتعة للغاية.,assignments quality|||negative,course general|||positive,0
+كانت المهمتان : أكثر تعقيدًا بعض الشيء من المهام الموجودة في الدورة الأولى، ولكنها لا تزال ممتعة للغاية.,assignments quality|||positive,course general|||positive,0
+يوفر منتدى المناقشة بعض مستويات المساعدة ولكنك تعتمد في الأساس على نفسك.,material quality|||neutral,course general|||positive,0
+كانت هذه (الدورة 1) رائعة!,course general|||positive,course general|||positive,1
+شرح كل شيء بالتفصيل .,faculty comprehensiveness|||positive,course general|||positive,0
+استمتعت بهذا حقًا.,course general|||positive,course general|||positive,1
+النجمة - - لأنني أشعر بقليل من الانخراط في المسار، ولا أشعر بانخراط المدرب.,faculty general|||negative,course general|||positive,0
+النجمة - - لأنني أشعر بقليل من الانخراط في المسار، ولا أشعر بانخراط المدرب.,course general|||negative,course general|||positive,0
+كانت الدورة  جيدة حقًا وساعدتني في الحصول على بعض تقنيات التعلم والأفكار الجديدة.,course general|||positive,course general|||positive,1
+كانت الدورة  جيدة حقًا وساعدتني في الحصول على بعض تقنيات التعلم والأفكار الجديدة.,course comprehensiveness|||positive,course general|||positive,0
+هذه دورة مثيرة للاهتمام ومجزية للغاية .,course general|||positive,course general|||positive,1
+هذه دورة مثيرة للاهتمام ومجزية للغاية .,polarity positive|||positive,course general|||positive,0
+إن تشغيل التسجيل للطلاب الآخرين درجات أمر مرهق للغاية.,grades general|||negative,course general|||positive,0
+لا يحتوي المقرر  على أي حوارات أو أي مواقف حقيقية يتم فيها مراجعة المفردات.,course relatability|||negative,course general|||positive,0
+لا تفوت هذه (الدورة 1) .,course general|||positive,course general|||positive,1
+(1: يقدم الأستاذ كرامر المفاهيم الأساسية للميكانيكا الإحصائية بطريقة معقولة تجعل هذا الموضوع الصعب سهلاً إلى حد ما حتى للمبتدئين.,faculty comprehensiveness|||positive,course general|||positive,0
+صلب دورة .,course general|||positive,course general|||positive,1
+قائمة القراءة الموصى بها، مع روابط لمعظم العناصر، تستحق الوقت الذي تقضيه عليها.,material quality|||positive,course general|||positive,0
+بشكل عام، كانت الدورة رائعة إذا كنت تخطط لزيارة البلاد وترغب في الاستغناء عن مترجم لأننا جميعًا نعلم أن ليس كل المواطنين الصينيين يتحدثون الإنجليزية.,course general|||positive,course general|||positive,1
+ساكس وهذا العمل الثوري لعالمنا .,faculty general|||positive,course general|||positive,0
+بالنسبة لشخص مثلي لديه 17 عامًا من الخبرة في البرمجة، ومع بعض التدريب العملي على الشبكات العصبية من أيام الكلية، وأدوات تحليلية لبعض التطبيقات في R؛ فهو تجديد رائع للأساسيات ومجموعة كبيرة من عناصر التكنولوجيا العملية التي تعد الأكثر فائدة في تطبيقات التعلم الآلي.,course quality|||positive,course general|||positive,0
+كانت هذه الدورة، المدرب السيد غابرييل ترويلو، الدورة المواد، مقاطع الفيديو، والمقابلات مع المحترفين مثالية تمامًا.,faculty general|||positive,course general|||positive,0
+كانت هذه الدورة، المدرب السيد غابرييل ترويلو، الدورة المواد، مقاطع الفيديو، والمقابلات مع المحترفين مثالية تمامًا.,material quality|||positive,course general|||positive,0
+كانت هذه الدورة، المدرب السيد غابرييل ترويلو، الدورة المواد، مقاطع الفيديو، والمقابلات مع المحترفين مثالية تمامًا.,presentation quality|||positive,course general|||positive,0
+إن نظام التقييم الأفضل هو أن يزن الاختبار والمقالات، على سبيل المثال، 60% اختبار، 40% مقال.,grades general|||negative,course general|||positive,0
+ولكن هذا الأمر وجدته صعبًا بعض الشيء وضائعًا في بعض الأحيان، خاصة في العلاقات بين العديد والعديد.,course comprehensiveness|||negative,course general|||positive,0
+هي دورة مفيدة جدًا دورة على الرغم من أنك تحتاج إلى ساعات أكثر لإكمالها.,course general|||positive,course general|||positive,1
+هي دورة مفيدة جدًا دورة على الرغم من أنك تحتاج إلى ساعات أكثر لإكمالها.,course workload|||negative,course general|||positive,0
+الأستاذ دقيق جداً، واضح، ومنهجي.,faculty general|||positive,course general|||positive,0
+الأستاذ دقيق جداً، واضح، ومنهجي.,faculty comprehensiveness|||positive,course general|||positive,0
+كنت أفضّل أن يكون لدينا مدرب واحد جيد باستمرار مدرب.,faculty general|||negative,course general|||positive,0
+ربما يكون هناك الكثير من الاختيارات الواجبات.,assignments quantity|||negative,course general|||positive,0
+المحاضرات مشوقة، ولكن بمستوى مناسب للمبتدئين في علم الفلك.,presentation comprehensiveness|||positive,course general|||positive,0
+المحاضرات مشوقة، ولكن بمستوى مناسب للمبتدئين في علم الفلك.,course quality|||positive,course general|||positive,0
+هذه دورة مذهلة دورة.,course general|||positive,course general|||positive,1
+سهلة المتابعة .,course comprehensiveness|||positive,course general|||positive,0
+أيضا الواجبات جميلة جداً .,assignments quality|||positive,course general|||positive,0
+عروض الفيديو جيدة الصنع وتحتوي على معلومات حيوية لتطوير المهارات المطلوبة لكي تكون كاتبًا فعالاً.,presentation quality|||positive,course general|||positive,0
+مرة أخرى، شكرًا لك دكتور تشاك وفريقك على إنشاء هذه الدورة التدريبية المثيرة للاهتمام والممتعة.,faculty general|||positive,course general|||positive,0
+الطريقة الدكتورة باربرا أوكلي والدكتور سيجنوفسكي طورت هذه الدورة المهمة الدورة بالنسبة لنا الطلاب تطبق أيضًا العديد من الطرق المثيرة للاهتمام للفهم بطريقة أكثر طبيعية بالإضافة إلى شرح واضح للطرق حول كيفية الحصول على نهج أفضل عندما نحاول تعلم شيء ما.,faculty general|||positive,course general|||positive,0
+الطريقة الدكتورة باربرا أوكلي والدكتور سيجنوفسكي طورت هذه الدورة المهمة الدورة بالنسبة لنا الطلاب تطبق أيضًا العديد من الطرق المثيرة للاهتمام للفهم بطريقة أكثر طبيعية بالإضافة إلى شرح واضح للطرق حول كيفية الحصول على نهج أفضل عندما نحاول تعلم شيء ما.,course comprehensiveness|||positive,course general|||positive,0
+الطريقة الدكتورة باربرا أوكلي والدكتور سيجنوفسكي طورت هذه الدورة المهمة الدورة بالنسبة لنا الطلاب تطبق أيضًا العديد من الطرق المثيرة للاهتمام للفهم بطريقة أكثر طبيعية بالإضافة إلى شرح واضح للطرق حول كيفية الحصول على نهج أفضل عندما نحاول تعلم شيء ما.,course general|||positive,course general|||positive,1
+شكرًا البروفيسور هير وكورسيرا لأنني أستمتع بهذه الدورة الرائعة الدورة التي تتحدى العديد من الصور النمطية.,faculty general|||positive,course general|||positive,0
+شكرًا البروفيسور هير وكورسيرا لأنني أستمتع بهذه الدورة الرائعة الدورة التي تتحدى العديد من الصور النمطية.,course general|||positive,course general|||positive,1
+فهو في الواقع ينشر تقنيات ومفاهيم مفيدة في التعلم.,course quality|||positive,course general|||positive,0
+أتمنى أن يقدموا شهادة مجانية لمن يكمل الدورة .,course value|||positive,course general|||positive,0
+لقد شعرت أن هذه الدورة  كانت رائعة - وأنا أرى أن الدورة  يجب أن تكون شرطًا إلزاميًا لجميع أعضاء مجلس الشيوخ ومجلس النواب في الولايات المتحدة - حيث قد يتخذون قرارات أقل غباءً عند الترويج للديمقراطية في البلدان الإسلامية.,course general|||positive,course general|||positive,1
+الأستاذ إدوين باكر النهج التعليمي مناسب بشكل خاص لمفهومي المثالي حول كيفية تواصل المعلم مع جمهوره.,faculty general|||positive,course general|||positive,0
+شرح المعلومات بشكل واضح .,course comprehensiveness|||positive,course general|||positive,0
+كان المدربون جيدين جدًا في عملهم.,faculty general|||positive,course general|||positive,0
+يجب أن يكون هذا أسوأ دورة Coursera course التي أخذتها وقد أخذت عددًا لا بأس به منها.,course general|||negative,course general|||positive,0
+أوصي بهذا بالتأكيد لأي شخص يحاول الحصول على مقدمة في البرمجة.,course general|||positive,course general|||positive,1
+كان التنظيم، المحتوى، الأنشطة، التدريب والمهام ممتازًا.,course quality|||positive,course general|||positive,0
+كان التنظيم، المحتوى، الأنشطة، التدريب والمهام ممتازًا.,material quality|||positive,course general|||positive,0
+كان التنظيم، المحتوى، الأنشطة، التدريب والمهام ممتازًا.,assignments quality|||positive,course general|||positive,0
+الفيديوهات مملة جدًا وغير مفيدة مقارنة بالمحتوى المذهل في الدورات الستة الأولى من التخصص.,presentation quality|||negative,course general|||positive,0
+عندي كلمة واحدة : رائع .,course general|||positive,course general|||positive,1
+الأستاذ واضح في الشرح و متفاهم أيضا.,faculty comprehensiveness|||positive,course general|||positive,0
+الأستاذ واضح في الشرح و متفاهم أيضا.,faculty general|||positive,course general|||positive,0
+التواصل سيء جدًا جدًا من المعلمين.,faculty response|||negative,course general|||positive,0
+أيضًا، محمد نور متحمس جدًا، ويقدم الكثير من الأمثلة الجميلة لتوضيح الدورة.,faculty general|||positive,course general|||positive,0
+أيضًا، محمد نور متحمس جدًا، ويقدم الكثير من الأمثلة الجميلة لتوضيح الدورة.,faculty comprehensiveness|||positive,course general|||positive,0
+أيضًا، محمد نور متحمس جدًا، ويقدم الكثير من الأمثلة الجميلة لتوضيح الدورة.,faculty relatability|||positive,course general|||positive,0
+فهو يشجعك على التركيز على السرد ولا يصرف انتباهك عنه أبدًا.,presentation comprehensiveness|||positive,course general|||positive,0
+بطيئة الوتيرة، ترتيب الفصول منطقي؛ أفضل دورة بايثون قمت بها والوحيدة التي أبقتني محتفظًا بها.,course quality|||positive,course general|||positive,0
+بطيئة الوتيرة، ترتيب الفصول منطقي؛ أفضل دورة بايثون قمت بها والوحيدة التي أبقتني محتفظًا بها.,course comprehensiveness|||positive,course general|||positive,0
+نحن نحصل على أفكار أساسية، ولكننا نمر عبر كل المعلومات وننظم الأفكار بسرعة كبيرة، دون أي أمثلة أو أمثلة محدودة، وهو ما سيعلمنا الكثير.,course general|||positive,course general|||positive,1
+نحن نحصل على أفكار أساسية، ولكننا نمر عبر كل المعلومات وننظم الأفكار بسرعة كبيرة، دون أي أمثلة أو أمثلة محدودة، وهو ما سيعلمنا الكثير.,material quality|||positive,course general|||positive,0
+رائع محاضرات، رائع مهام البرمجة والتقييم، بشكل عام استمتعت حقًا بهذه الدورة الدورة.,presentation quality|||positive,course general|||positive,0
+رائع محاضرات، رائع مهام البرمجة والتقييم، بشكل عام استمتعت حقًا بهذه الدورة الدورة.,assignments quality|||positive,course general|||positive,0
+رائع محاضرات، رائع مهام البرمجة والتقييم، بشكل عام استمتعت حقًا بهذه الدورة الدورة.,grades general|||positive,course general|||positive,0
+رائع محاضرات، رائع مهام البرمجة والتقييم، بشكل عام استمتعت حقًا بهذه الدورة الدورة.,course general|||positive,course general|||positive,1
+هذه الدورة الدورة صعبة بالنسبة للمبتدئين في Ruby on Rails و MongoDB.,course comprehensiveness|||negative,course general|||positive,0
+أمثلة ذات صلة لا تنسى من أجل ترك انطباع دائم.,presentation relatability|||positive,course general|||positive,0
+أمثلة ذات صلة لا تنسى من أجل ترك انطباع دائم.,presentation comprehensiveness|||positive,course general|||positive,0
+شيء أساسي بالنسبة لي .,course general|||positive,course general|||positive,1
+الأستاذ ممتاز و ودود للغاية مع الطلاب، والمادة المادة واضحة جدًا.,faculty general|||positive,course general|||positive,0
+الأستاذ ممتاز و ودود للغاية مع الطلاب، والمادة المادة واضحة جدًا.,material quality|||positive,course general|||positive,0
+عظيم أستاذ .,faculty general|||positive,course general|||positive,0
+أجد نفسي أطبق ما تعلمته في كتاباتي اليومية بالإضافة إلى الأشياء التي أقرأها وأشاهدها.,course relatability|||positive,course general|||positive,0
+باربرا أوكلي كانت رائعة.,faculty general|||positive,course general|||positive,0
+في هذه الدورة القصيرة : يمكنك تعلم بعض المواضيع الرئيسية المهمة في استراتيجية الأعمال.,course general|||positive,course general|||positive,1
+ونتيجة لذلك، فإن هذه الأسابيع الأربعة كانت مملة إلى حد ما.,course quality|||negative,course general|||positive,0
+كان الشيء الرئيسي الذي تمكنت من تحقيقه هو ممارسة النغمات، والتي كانت صعبة للغاية.,course comprehensiveness|||positive,course general|||positive,0
+كان الشيء الرئيسي الذي تمكنت من تحقيقه هو ممارسة النغمات، والتي كانت صعبة للغاية.,assignments quality|||positive,course general|||positive,0
+لقد حفزني هذا (الدورة 2) على دراسة المزيد من الدورات المتعلقة بالاقتصاد (الدورة 2) وأود بالتأكيد أن أوصي بها لأي شخص مهتم بالموضوع والذي هو جديد في الاقتصاد الجزئي مثلي.,course general|||positive,course general|||positive,1
+إرشادات عملية مفيدة لتجنب أخطاء السعادة التي نرتكبها يوميًا - لم أكن أدرك الكثير منها,course relatability|||positive,course general|||positive,0
+شكرا لكم على هذه الدورة الرائعة بالطبع.,course general|||positive,course general|||positive,1
+ولكنها مجرد البداية!,course general|||positive,course general|||positive,1
+أود أن أشكر بصدق مجتمع Coursera على توفير هذه الفرصة الرائعة لإلقاء نظرة على مفاهيم HTML و CSS و Java Script.,course general|||positive,course general|||positive,1
+أعجبني أكثر في المرة الثانية.,course general|||positive,course general|||positive,1
+إنه مثير للتفكير للغاية ويقدم نظرة ثاقبة للتأمل - وهو موضوع يغيب عن كثير من الناس.,course quality|||positive,course general|||positive,0
+إنه مثير للتفكير للغاية ويقدم نظرة ثاقبة للتأمل - وهو موضوع يغيب عن كثير من الناس.,course general|||positive,course general|||positive,1
+رائع فيديو ، اختبارات وتمارين .,presentation quality|||positive,course general|||positive,0
+رائع فيديو ، اختبارات وتمارين .,assignments quality|||positive,course general|||positive,0
+أوصي بهذه الدورة الدورة للجميع.,course general|||positive,course general|||positive,1
+لقد بدأت منذ ذلك الحين دورة ستانفورد المجانية course التي يدرسها أحد مؤسسي coursera ، وهي أفضل بكثير!,course general|||positive,course general|||positive,1
+كما أن تمارين الواجبات المنزلية استغرقت وقتًا أطول بكثير من التقديرات المتوقعة، ولكنني خصصت ضعف الوقت تقريبًا وتمكنت من إكمال الدورة في الوقت المحدد.,assignments workload|||negative,course general|||positive,0
+"إنها طريقة جيدة التقديم وسهلة الفهم للبدء في فهم أعمق أعمال أينشتاين في ""عام المعجزة"" عام 1905.",presentation quality|||positive,course general|||positive,0
+هو يقدم لك البرمجة بطريقة غير مخيفة وتشعر بأنها طبيعية تمامًا في غضون أسبوعين.,faculty comprehensiveness|||positive,course general|||positive,0
+لقد استمتعت بأسلوب التدريس الخاص بـ البروفيسور سيدل.,faculty general|||positive,course general|||positive,0
+أوصي به بشدة لأي شخص!,course general|||positive,course general|||positive,1
+تم تدريس مفاهيم حساب التفاضل والتكامل المثيرة للاهتمام بعمق من قبل الأستاذ جيم.,faculty comprehensiveness|||positive,course general|||positive,0
+مشجع للغاية ومليء بالتحديات مع الكثير من التعلم على طول الطريق.,course general|||positive,course general|||positive,1
+بالتأكيد سأعود للتحقق من المواد الاختيارية المواد.,material quality|||positive,course general|||positive,0
+تم تصميم المهام بشكل جيد أيضًا، مما يساعدني في تحسين تعليمي!,assignments quality|||positive,course general|||positive,0
+شكرًا .,course general|||positive,course general|||positive,1
+إنها دورة رائعة دورة لفهم الغرض من سرد القصص عبر منصات متنوعة وبصورة مستدامة مع مرور الوقت.,course general|||positive,course general|||positive,1
+كان المعلم ممتازًا، وتعلمت أشياء جديدة.,faculty general|||positive,course general|||positive,0
+كان المعلم ممتازًا، وتعلمت أشياء جديدة.,course general|||positive,course general|||positive,1
+مطلوب مهارات قوية في الرياضيات.,course comprehensiveness|||negative,course general|||positive,0
+لدى الأستاذ الكثير من دراسات الحالة التي تُظهر أنه ممارس للتسويق ويشارك حالات حقيقية / نموذجية تساعدك على فهم المفاهيم التي يتم تدريسها بشكل أفضل (ليس فقط من الناحية النظرية).,faculty relatability|||positive,course general|||positive,0
+لدى الأستاذ الكثير من دراسات الحالة التي تُظهر أنه ممارس للتسويق ويشارك حالات حقيقية / نموذجية تساعدك على فهم المفاهيم التي يتم تدريسها بشكل أفضل (ليس فقط من الناحية النظرية).,faculty comprehensiveness|||positive,course general|||positive,0
+البروفيسور تشارلز مذهل .,faculty general|||positive,course general|||positive,0
+على الرغم من وجود بعض المشكلات الفنية، إلا أن هذه دورة رائعة بالطبع.,course quality|||negative,course general|||positive,0
+على الرغم من وجود بعض المشكلات الفنية، إلا أن هذه دورة رائعة بالطبع.,course general|||positive,course general|||positive,1
+لقد أخذت أكثر من 5 دورات تدريبية على موقع Coursera، وكان هذا هو الأقل إرضاءً بالنسبة لي.,course general|||negative,course general|||positive,0
+كان هذا بمثابة المقدمة المثالية دورة لشخص لا يعرف شيئًا عن HTML.,course general|||positive,course general|||positive,1
+لقد استمتعت حقًا بتحليل البروفيسور مايكل روث لمحتوى الموضوع.,faculty general|||positive,course general|||positive,0
+تسلط الدورة  الضوء على المبادئ الأساسية لكيفية الدخول إلى السوق بشكل أفضل وكيفية إبقاء المنافسين خارج السوق.,course quality|||positive,course general|||positive,0
+لو كنت سريعًا جدًا، كان بإمكاني كتم الصوت حتى ينتهي، ولكن أعتقد أن هذا غير ضروري على الإطلاق.,presentation quality|||negative,course general|||positive,0
+لطيفة ومفصلة .,course quality|||positive,course general|||positive,0
+لقد استمتعت حقًا بهذا الدورة وأنا حزين نوعًا ما لأن هذا قد انتهى.,course general|||positive,course general|||positive,1
+شكرا على توجيهاتك .,faculty response|||positive,course general|||positive,0
+إلى جانب المشكلات الفنية الرئيسية ونقص المعلومات قبل تأجيل بدء الدورة والمشكلات الفنية البسيطة، فإن طريقة التدريس تتكيف جيدًا مع الفصول الدراسية في الموقع حيث يمكنك الجلوس في مجموعات دراسية لحل المشكلات معًا؛ الأمثلة المقدمة  لها صلة قليلة جزئيًا ولا تساعد في حل المهام ووفقًا للموظفين فإن أفضل طريقة لحل المهام هي استخدام Google (أو Stackoverflow أو أيًا كان) حقًا؟! بطريقة ما يبدو أنهم أخذوا دورة تدريبية في الموقع ولعبوا ببعض الحلول الفنية الرائعة ويطلقون عليها الآن MOOC. يبدو أنهم لا يدركون حقًا حقيقة أن التدريس في الموقع والدورات التدريبية المفتوحة على الإنترنت تتطلب أنواعًا مختلفة تمامًا من الأساليب التربوية، من المدهش كيف يمكن لنفس الجامعة أن تقدم أفضل دورة تدريبية مفتوحة على الإنترنت (دكتور تشاك) وواحدة من أسوأها (هذه الدورة),material relatability|||negative,course general|||positive,0
+لا يزال الأمر جيدًا، ولكنني كنت أتوقع أفضل من الإطارات السلكية والنماذج الأولية التي تعلمناها بالفعل منذ فترة.,course general|||neutral,course general|||positive,0
+إنه تصميم سيئ واجب يضيع وقت الطلاب ويخلق الكثير من الإحباط.,assignments quality|||negative,course general|||positive,0
+مقاطع الفيديو واضحة وسهلة المتابعة وتحتوي على الكثير من الأمثلة والمعلومات والمحتوى الرائع.,presentation quality|||positive,course general|||positive,0
+مقاطع الفيديو واضحة وسهلة المتابعة وتحتوي على الكثير من الأمثلة والمعلومات والمحتوى الرائع.,presentation comprehensiveness|||positive,course general|||positive,0
+مقاطع الفيديو واضحة وسهلة المتابعة وتحتوي على الكثير من الأمثلة والمعلومات والمحتوى الرائع.,presentation relatability|||positive,course general|||positive,0
+لقد استمتعت بهذه الدورة الدورة كثيرًا.,course general|||positive,course general|||positive,1
+المعلم يميل إلى روح الدعابة مما يخفف التوتر في لحظة التعلم.,faculty comprehensiveness|||positive,course general|||positive,0
+لقد تناولت الدورة  جميع الأساسيات وأعطتني التوجيه والمعلومات التي أحتاجها كشخص ليس في المجال الطبي، مما يجعل من السهل إجراء المزيد من الأبحاث.,course general|||positive,course general|||positive,1
+دورة رائعة  (والكتاب المصاحب لها، عبقرية الكلاب، وموقع العلوم للمواطنين، Dognition، رائعين أيضًا).,course general|||positive,course general|||positive,1
+أنا سعيد جدًا لأنني وجدت هذا الدورة !!,course general|||positive,course general|||positive,1
+ربما تم تصميمه لأولئك الذين هم أكثر تحليلا مني.,course general|||negative,course general|||positive,0
+إنه يجعل التعلم حول القافية والاستعارة والتقسيم غير معقد بينما يصقل تركيزك، حتى تتمكن كتاباتك من مفاجأتك.,faculty general|||positive,course general|||positive,0
+بعد كل شيء، هذا المسار موجه نحو استخدام Python للتحليل وعلوم البيانات، وهو موضوع ليس مخصصًا للمبتدئين تمامًا.,course general|||neutral,course general|||positive,0
+إنها دورة مكثفة ودقيقة دورة، مما يعني أنه من أجل الحصول على مهارة بناء موقع ويب، فإن الشيء الوحيد الذي يجب القيام به هو اتباع الخطوات الموجودة في الفيديو وإنهاء المهمة؛ ومع ذلك فإن كل موضوع في دورة، حتى سطر من التعليمات البرمجية، يستحق مزيدًا من التأمل.,polarity positive|||positive,course general|||positive,0
+جميع تمارين MATLAB / Octave  مثيرة للاهتمام وذات صلة.,assignments quality|||positive,course general|||positive,0
+جميع تمارين MATLAB / Octave  مثيرة للاهتمام وذات صلة.,assignments relatability|||positive,course general|||positive,0
+إنها تقدم المادة بطريقة سهلة الفهم والهضم.,material quality|||positive,course general|||positive,0
+عادةً ما أفضّل Lynda على Coursera بالنسبة لـ الواجبات والاختبارات، ولكن ليس في هذه الحالة...,assignments relatability|||negative,course general|||positive,0
+أود أن أرى المزيد من التفاعل والتصنيف تمارين البرمجة بين مقاطع الفيديو لتوصيل المفاهيم بشكل صحيح.,assignments quantity|||negative,course general|||positive,0
+أود أن أرى المزيد من التفاعل والتصنيف تمارين البرمجة بين مقاطع الفيديو لتوصيل المفاهيم بشكل صحيح.,presentation quality|||positive,course general|||positive,0
+ربما الأستاذة ووترز - يمكن لريست وفريقها إجراء دورة أخرى في علم الآثار العظمية لتقديم تقنيات غير مغطاة في هذه الدورة.,faculty general|||neutral,course general|||positive,0
+إن محاضرات الفيديو مثيرة وأنا أتطلع إلى الوقت الذي أقضيه في مشاهدتها، والقراءات الأساسية ذات صلة وهناك اقتراحات جيدة لأولئك الذين يريدون الحصول على فهم أعمق للمادة.,material quality|||positive,course general|||positive,0
+إن محاضرات الفيديو مثيرة وأنا أتطلع إلى الوقت الذي أقضيه في مشاهدتها، والقراءات الأساسية ذات صلة وهناك اقتراحات جيدة لأولئك الذين يريدون الحصول على فهم أعمق للمادة.,presentation quality|||positive,course general|||positive,0
+لقد تعلمت الكثير من هذه الدورة الدورة .,course general|||positive,course general|||positive,1
+محتوى رائع!,course general|||positive,course general|||positive,1
+المحاضرات  طويلة جدًا، وليست مجزأة لسهولة المشاهدة (إلى الحد الذي لم أتمكن فيه من تنزيلها على هاتفي للاستخدام غير المتصل بالإنترنت / بدون شبكة wifi).,presentation quantity|||negative,course general|||positive,0
+باعتباري شخصًا يدرس الإدارة، فقد اكتسبت قدرًا غير واقعي من المعرفة فيما يتعلق بالأسواق المالية.,course comprehensiveness|||positive,course general|||positive,0
+بشكل عام كانت هذه مقدمة جيدة دورة,course general|||positive,course general|||positive,1
+كانت هذه (الدورة التدريبية رقم 1) أكثر فائدة بكثير مما كنت أعتقد.,course general|||positive,course general|||positive,1
+كانت هذه نظرة عامة جيدة على الخدمات التي تقدمها منصة Google Cloud.,course general|||positive,course general|||positive,1
+يجب على مقدمي الخدمة الآخرين دورة اتباع طريقة مماثلة.,course general|||positive,course general|||positive,1
+ليس لدي شك في طريقة التعلم الرائعة هذه.,presentation quality|||positive,course general|||positive,0
+رائع بالطبع. انتقادي البناء يتعلق بتنظيم أنشطة المجموعة، فمن الصعب جدًا التنظيم في مجموعات من خلال أشخاص لم تقابلهم من قبل، خاصة مع اختلافات المنطقة الزمنية وكذلك الاختلافات في الجداول اليومية لأعضاء المجموعة.,course general|||positive,course general|||positive,1
+هذه واحدة من أفضل الدورات الدورة التي اتخذتها، إن لم تكن الأفضل.,course general|||positive,course general|||positive,1
+معلومات مفيدة للغاية .,course quality|||positive,course general|||positive,0
+أوصي بهذا الدورة .,course general|||positive,course general|||positive,1
+يتم تقديم المحتوى الخاص بـ SCRUM ثماني مرات جزئيًا من خلال المقدمة وهنا.,presentation quality|||negative,course general|||positive,0
+مقاطع الفيديو قصيرة ومختصرة، وأود أن أنصح أي شخص بالالتزام بها.,presentation quantity|||negative,course general|||positive,0
+جودة التدريس سيئة للغاية وسريعة جدًا بحيث لا يمكن متابعتها.,faculty general|||negative,course general|||positive,0
+جودة التدريس سيئة للغاية وسريعة جدًا بحيث لا يمكن متابعتها.,faculty comprehensiveness|||negative,course general|||positive,0
+إن العرض العملي للمشاكل يوفر وضوحًا أفضل.,presentation quality|||positive,course general|||positive,0
+لقد كانت رؤية مثيرة للاهتمام.,course general|||positive,course general|||positive,1
+شكرا جزيلا أستاذ .,faculty general|||positive,course general|||positive,0
+أقدر أن القراءة المواد كانت مكملة للفيديوهات.,material relatability|||positive,course general|||positive,0
+أعطي 5 نجوم لـ المعلم، إنه نهج جيد حقًا في الحصول على تدريس منظم جيدًا المادة.,faculty general|||positive,course general|||positive,0
+أعطي 5 نجوم لـ المعلم، إنه نهج جيد حقًا في الحصول على تدريس منظم جيدًا المادة.,material quality|||positive,course general|||positive,0
+كان على الناس الانتظار لفترة طويلة للحصول على ردود الفعل، كما اعتقدت أيضًا أن أولئك الذين دفعوا مقابل القسم الأول من الأقسام الخمسة، لا ينبغي أن يكونوا ملزمين بدفع ثمن الأقسام الأربعة التالية إذا أرادوا على الأقل الوصول إلى المادة، دون الحصول على تصنيف.,faculty response|||negative,course general|||positive,0
+كان على الناس الانتظار لفترة طويلة للحصول على ردود الفعل، كما اعتقدت أيضًا أن أولئك الذين دفعوا مقابل القسم الأول من الأقسام الخمسة، لا ينبغي أن يكونوا ملزمين بدفع ثمن الأقسام الأربعة التالية إذا أرادوا على الأقل الوصول إلى المادة، دون الحصول على تصنيف.,grades general|||positive,course general|||positive,0
+لقد أحببت هذه الفئة!,course general|||positive,course general|||positive,1
+لقد أوصيت بهذا (الدورة 2) لصديقي وأي شخص مهتم بالموسيقى يجب عليه بالتأكيد تجربة هذا (الدورة 2).,course general|||positive,course general|||positive,1
+أعتقد أنه من الأفضل أن تكون هذه المعلومات غير إلزامية ولكن حسب الاختيار,course general|||neutral,course general|||positive,0
+وكان من السهل فهم النقاط التي ذكرها.,faculty comprehensiveness|||positive,course general|||positive,0
+وتيرة دورة بطيئة للغاية أيضًا، على الرغم من أنها قد تكون مناسبة للطلاب المبتدئين.,course general|||negative,course general|||positive,0
+وتيرة دورة بطيئة للغاية أيضًا، على الرغم من أنها قد تكون مناسبة للطلاب المبتدئين.,course general|||positive,course general|||positive,1
+أتمنى فقط أن يكون هناك المزيد مهام البرمجة المصنفة!,assignments quantity|||negative,course general|||positive,0
+سأوصي به لأصدقائي .,course general|||positive,course general|||positive,1
+لقد وجدت هذا الدورة مفيدًا جدًا وتعلمت كيفية استخدام التعبيرات العادية واستخدمتها لاحقًا لتحليل صفحات HTML للنظر في العلامات والمحتوى المتنوع.,course general|||positive,course general|||positive,1
+مستوى تمهيدي رائع (دورة 1) في الإستراتيجية التنافسية.,course general|||positive,course general|||positive,1
+أود أن أشكر المدربين وجميع أولئك الذين شاركوا في تقديم مثل هذه الدورة التدريبية المفيدة والجيدة الجودة الدورة.,course quality|||positive,course general|||positive,0
+أود أن أشكر المدربين وجميع أولئك الذين شاركوا في تقديم مثل هذه الدورة التدريبية المفيدة والجيدة الجودة الدورة.,faculty general|||positive,course general|||positive,0
+كمقدمة، لقد كانت تجربة رائعة.,course general|||positive,course general|||positive,1
+وبالمناسبة، هناك الكثير من القصص.,presentation relatability|||negative,course general|||positive,0
+إذا لم تتمكن من تحمل تكاليف المشاركة، فسيكون لديك وصول محدود إلى مادة الاختبار.,assignments quantity|||negative,course general|||positive,0
+(1: سارع المدرسون إلى تقديم مادة الدورة.,faculty comprehensiveness|||negative,course general|||positive,0
+يتم تقديم الموضوع بطريقة أنيقة ورسمية للغاية من قبل الأستاذ نج بدءًا من الأشياء الأساسية والتقدم بخطى مثالية إلى أشياء أكثر صعوبة.,faculty comprehensiveness|||positive,course general|||positive,0
+رائع رائع بالطبع ¡¡¡,course general|||positive,course general|||positive,1
+هذه (الدورة 1) مهمة جدًا لجميع الدارسين من البلدان النامية والمتقدمة، نظرًا لأن سكان العالم المتزايدين يواجهون نقصًا حادًا في الغذاء، وبالتالي يصبح توفير الخسائر ضرورة ملحة.,course general|||positive,course general|||positive,1
+الدورة مثيرة للاهتمام، ولكن في بعض الأحيان يكون من الصعب إدراك المعلومات بهذه اللهجة:,course general|||positive,course general|||positive,1
+الدورة مثيرة للاهتمام، ولكن في بعض الأحيان يكون من الصعب إدراك المعلومات بهذه اللهجة:,presentation comprehensiveness|||negative,course general|||positive,0
+لقد استمتعت بها حقًا والأهم من ذلك أنني تعلمت الكثير.,course general|||positive,course general|||positive,1
+لقد استمتعت بها حقًا والأهم من ذلك أنني تعلمت الكثير.,course comprehensiveness|||positive,course general|||positive,0
+اختبارات المنصة و الواجبات تساعدك على التقدم وتدفعك لمراجعة ملاحظاتك ومحتوى الكتاب، مما يجعلك تشعر بالراحة مع سرعة الدروس.,assignments quality|||positive,course general|||positive,0
+اختبارات المنصة و الواجبات تساعدك على التقدم وتدفعك لمراجعة ملاحظاتك ومحتوى الكتاب، مما يجعلك تشعر بالراحة مع سرعة الدروس.,presentation comprehensiveness|||positive,course general|||positive,0
+جون كوفاتش هو مدرس رائع.,faculty general|||positive,course general|||positive,0
+الدورة هي نهج عملي جدًا للغة.,course general|||positive,course general|||positive,1
+مقدمة جيدة جدًا ولكن عندما أتصفح مقاطع الفيديو ثم أقوم بـ الاختبار، أشعر أن المادة لا تسلط الضوء بالضبط على ما هو مطلوب من أجل الاختبار.,course general|||positive,course general|||positive,1
+مقدمة جيدة جدًا ولكن عندما أتصفح مقاطع الفيديو ثم أقوم بـ الاختبار، أشعر أن المادة لا تسلط الضوء بالضبط على ما هو مطلوب من أجل الاختبار.,presentation relatability|||positive,course general|||positive,0
+مقدمة جيدة جدًا ولكن عندما أتصفح مقاطع الفيديو ثم أقوم بـ الاختبار، أشعر أن المادة لا تسلط الضوء بالضبط على ما هو مطلوب من أجل الاختبار.,material relatability|||negative,course general|||positive,0
+مقدمة جيدة جدًا ولكن عندما أتصفح مقاطع الفيديو ثم أقوم بـ الاختبار، أشعر أن المادة لا تسلط الضوء بالضبط على ما هو مطلوب من أجل الاختبار.,assignments relatability|||negative,course general|||positive,0
+السبب الحقيقي الذي يجعلني أقيمه بـ 3/5 هو أن التدوين الرياضي في كل مكان.,course quality|||neutral,course general|||positive,0
+ستتعلم أشياء مثيرة للاهتمام للغاية حول التعلم الآلي، ولكنك ستعمل أيضًا على تطوير مهاراتك البرمجية (MATLAB / Octave).,course general|||positive,course general|||positive,1
+لقد طلبت المساعدة في المنتدى ولكن لم يرد أحد .,faculty response|||negative,course general|||positive,0
+شكرا لك أندرو نج!,faculty general|||positive,course general|||positive,0
+لقد أخذت هذه الدورة دورة أولاً من تخصصات Ruby on Rails دورة ، وقررت التسجيل في الدورة دورة بأكملها.,course general|||positive,course general|||positive,1
+في حين أن المعلمين يعرفون بوضوح ما يفعلونه، إلا أنني وجدت المهام صعبة للغاية وقيمة تعليمية محدودة بسبب مزيج المفاهيم الجديدة التي قدمتها المحاضرات جنبًا إلى جنب مع الرياضيات أو علوم الكمبيوتر الجديدة (بالنسبة لي) والتي تحتاج أيضًا إلى الفهم.,faculty general|||positive,course general|||positive,0
+في حين أن المعلمين يعرفون بوضوح ما يفعلونه، إلا أنني وجدت المهام صعبة للغاية وقيمة تعليمية محدودة بسبب مزيج المفاهيم الجديدة التي قدمتها المحاضرات جنبًا إلى جنب مع الرياضيات أو علوم الكمبيوتر الجديدة (بالنسبة لي) والتي تحتاج أيضًا إلى الفهم.,assignments quality|||positive,course general|||positive,0
+في حين أن المعلمين يعرفون بوضوح ما يفعلونه، إلا أنني وجدت المهام صعبة للغاية وقيمة تعليمية محدودة بسبب مزيج المفاهيم الجديدة التي قدمتها المحاضرات جنبًا إلى جنب مع الرياضيات أو علوم الكمبيوتر الجديدة (بالنسبة لي) والتي تحتاج أيضًا إلى الفهم.,course general|||positive,course general|||positive,1
+كما أن العديد المهام ساعدتني على تحسين معرفتي ومهارتي في مجال التعلم الآلي.,assignments quality|||positive,course general|||positive,0
+لجميع الناس من جميع الأعمار والخلفيات والاهتمامات أقول لكم: اغتنم الفرصة للقيام بذلك دورة ولن تنظر إلى الوراء.,course general|||positive,course general|||positive,1
+أنا حقا أحب التحديات.,assignments quality|||positive,course general|||positive,0
+هناك الكثير من العمل الذي يتعين عليك القيام به، وكمية صغيرة من هذا العمل سوف تبقى معك.,assignments workload|||negative,course general|||positive,0
+هناك الكثير من العمل الذي يتعين عليك القيام به، وكمية صغيرة من هذا العمل سوف تبقى معك.,course quality|||negative,course general|||positive,0
+باستثناء التنزيلات والتسجيلات والتشغيل الضرورية، كانت الدورة مقدمة جيدة وكانت المقاييس واللعب الموضعي مفيدًا وواضحًا بشكل خاص.,presentation quality|||positive,course general|||positive,0
+باستثناء التنزيلات والتسجيلات والتشغيل الضرورية، كانت الدورة مقدمة جيدة وكانت المقاييس واللعب الموضعي مفيدًا وواضحًا بشكل خاص.,course general|||positive,course general|||positive,1
+باستثناء التنزيلات والتسجيلات والتشغيل الضرورية، كانت الدورة مقدمة جيدة وكانت المقاييس واللعب الموضعي مفيدًا وواضحًا بشكل خاص.,course quality|||positive,course general|||positive,0
+الأسابيع الثلاثة الأولى هي حزمة رائعة لتعلم Bootstrap.,course general|||positive,course general|||positive,1
+ومع ذلك، أنا حقا أقدر كل الدورات، وأعتقد أنه كان تجربة رائعة للذهاب من خلال الدورات!,course general|||positive,course general|||positive,1
+كانت هذه هي البداية التي كنت أحتاجها للانغماس بشكل كامل في عالم التعلم الآلي.,course general|||positive,course general|||positive,1
+شكرا جزيلا السيد لاندرز والمؤلفين الآخرين لهذه الدورة!,faculty general|||positive,course general|||positive,0
+يقترح عليك برنامج You Learning in IBM 12 ساعة - وكان معظم المشاركين في المنتديات يأخذون من 6 إلى 10 ساعات لكل مهمة!,assignments workload|||neutral,course general|||positive,0
+شكرا على عملك !!!,faculty general|||positive,course general|||positive,0
+يعد التعلم الآلي أداة مهمة لمجموعة متنوعة من فروع العلوم والهندسة و,course general|||positive,course general|||positive,1
+بعد الانتهاء من الدورة  لن تكون خبيرًا ولكن لديك المفاهيم والمعرفة الصحيحة لتطوير مشاريعك.,course general|||positive,course general|||positive,1
+أوصي بشدة بهذا لأي مدرس ESL أو TEFL أو CELTA.,course general|||positive,course general|||positive,1
+أعتقد أن هذا هو أفضل مكان للبدء لكي أصبح عالم بيانات، وسعيد بإكمال بقية الدورة بالطبع أيضًا.,course quality|||positive,course general|||positive,0
+إنه متحمس ويشرح المواد بشكل جيد للغاية.,faculty general|||positive,course general|||positive,0
+إنه متحمس ويشرح المواد بشكل جيد للغاية.,faculty comprehensiveness|||positive,course general|||positive,0
+أضاف استخدام المقالات الصحفية الفعلية لمسة عملية إلى النظرية وتطبيقات الإحصاء.,course quality|||positive,course general|||positive,0
+لقد تعلمت الكثير .,course general|||positive,course general|||positive,1
+عندما اتصلت بمعلمة ( إيفا) بخصوص بعض الأسئلة المحددة، كانت مفيدة للغاية وساعدتني في حل المشكلة.,faculty general|||positive,course general|||positive,0
+وكانت مادة العلوم المدنية مثيرة للاهتمام أيضًا.,material quality|||positive,course general|||positive,0
+جيد جدًا دورة.,course general|||positive,course general|||positive,1
+ربما، دورة التي تعتمد على كتابات السيد باكر وأحد كتبه قد نعتبرها أغراضًا تجارية أو ترويجية، ولكنها رائعة حقًا، دورة وطريقة لفهم العالم الذي نعيش فيه بالفعل، وطريقة ممتازة لتسمية العديد من الأشياء التي تحدث لنا جميعًا.,course quality|||positive,course general|||positive,0
+لقد كنت أحاول فهم هذا الأمر لمدة ثلاث سنوات، وأخيرًا أحرزت تقدمًا.,course general|||positive,course general|||positive,1
+ومع ذلك سيكون من الرائع لو قمت أيضًا بتوفير الأحرف الصينية لجميع الأشياء التي تعلمناها * أثناء * تعلمها وليس في نهاية الدورة .,course general|||positive,course general|||positive,1
+بشكل عام، جودة الدورة دورة جيدة ولديها مستوى مناسب من المعرفة للمحللين الجدد.,course quality|||positive,course general|||positive,0
+لقد أحببت الطريقة,course general|||positive,course general|||positive,1
+شكرًا لك cosera و Berklee على تقديم هذه الفرصة!,faculty general|||positive,course general|||positive,0
+سرعة الفيديو 5x بسبب كثرة الحديث .,presentation quality|||negative,course general|||positive,0
+لقد أخذت كارلو دورات التعلم الآلي الممتازة دورات في جامعة ويسكونسن وشعرت حقًا أنني بحالة جيدة جدًا.,course general|||positive,course general|||positive,1
+لقد أخذت كارلو دورات التعلم الآلي الممتازة دورات في جامعة ويسكونسن وشعرت حقًا أنني بحالة جيدة جدًا.,faculty general|||positive,course general|||positive,0
+لم يتم تغطيته حتى الدورة التالية دورة.,course general|||neutral,course general|||positive,0
+تم تصنيعه بشكل جيد للغاية مع توازن بين النظرية في التحكم في حركة الروبوتات مع التطبيق العملي المهام باستخدام لغة Matlab الشهيرة.,course general|||positive,course general|||positive,1
+تم تصنيعه بشكل جيد للغاية مع توازن بين النظرية في التحكم في حركة الروبوتات مع التطبيق العملي المهام باستخدام لغة Matlab الشهيرة.,course quality|||positive,course general|||positive,0
+تم تصنيعه بشكل جيد للغاية مع توازن بين النظرية في التحكم في حركة الروبوتات مع التطبيق العملي المهام باستخدام لغة Matlab الشهيرة.,assignments relatability|||positive,course general|||positive,0
+ينبغي عليهم مدربي الدورة تقديم المزيد من المعلومات في البداية حول ضرورة مشاهدة مقاطع الفيديو وقراءة مواد الدورة تقريبًا قبل بدء الأسبوع الجديد نظرًا لحقيقة أنه يجب إنشاء مجموعات وتنسيق المناقشات والبحث مع زملاء الفريق.,faculty comprehensiveness|||negative,course general|||positive,0
+لقد جعلت التجربة أكثر خصوصية.,course general|||positive,course general|||positive,1
+وبصرف النظر عن ذلك كان ممتازا.,course general|||positive,course general|||positive,1
+يتم تقديم العديد من المعادلات دون توضيح سبب عمل هذه الأشياء أو كيفية اشتقاقها.,presentation relatability|||negative,course general|||positive,0
+الدورة تركز أيضًا كثيرًا على التاريخ بينما قد يكون من المناسب النظر إلى المستقبل.,course comprehensiveness|||neutral,course general|||positive,0
+سيكون من الرائع أن يكون لدينا المزيد من الدورات مثل هذه.,course general|||positive,course general|||positive,1
+هذه (الدورة 1) رائعة للغاية!,course general|||positive,course general|||positive,1
+عظيم .,course general|||positive,course general|||positive,1
+لقد ساعدني أخذ هذه الدورة دورة على استكشاف كتاباتي بشكل أكبر.,course relatability|||positive,course general|||positive,0
+وشكراً أيضاً لـ Coursera : ),course general|||positive,course general|||positive,1
+سعيدة جدًا في النهاية .,course general|||positive,course general|||positive,1
+إنه جيد جدًا - موضح وسهل المتابعة.,presentation comprehensiveness|||positive,course general|||positive,0
+إنه جيد جدًا - موضح وسهل المتابعة.,presentation quality|||positive,course general|||positive,0
+ومع ذلك، لم يعجبني حقيقة أنك تقتصر على تعلم كيفية استخدام منصة مدفوعة و(مكلفة للغاية!)، ويرجع ذلك في الغالب إلى وجود العديد من الحزم المجانية الأخرى المتاحة للتعلم الآلي.,course value|||negative,course general|||positive,0
+نعم، تتطلب (المهام 1) الانغماس في مشاكل لا علاقة لها بالتوازي في حد ذاته.,assignments relatability|||positive,course general|||positive,0
+بالنسبة لي كان من المثير للاهتمام للغاية مشاهدة المقابلات مع الأشخاص الذين يرتبط عملهم ارتباطًا وثيقًا بالاتحاد الأوروبي؛ هذه مقاطع الفيديو ملهمة تمامًا.,presentation relatability|||positive,course general|||positive,0
+إنها دورة رائعة .,course general|||positive,course general|||positive,1
+البروفيسور فاولر رائع!,faculty general|||positive,course general|||positive,0
+يوصى بشدة بهذه الدورة الدورة!,course general|||positive,course general|||positive,1
+لقد استمتعت حقا بهذه الدورة.,course general|||positive,course general|||positive,1
+يتم توفير كافة المعلومات بطريقة بسيطة وسهلة الفهم.,course general|||positive,course general|||positive,1
+يتم توفير كافة المعلومات بطريقة بسيطة وسهلة الفهم.,course comprehensiveness|||positive,course general|||positive,0
+على الرغم من كل شيء، إذا كنت مهتمًا حقًا بالتعلم الآلي، فيجب عليك أخذ هذه الدورة .,course general|||positive,course general|||positive,1
+يعد هذا تحديًا إذا لم يكن مطورًا ويحتاج إلى كود محدد للغاية. وبصرف النظر عن ذلك، كانت هذه دورة ممتعة ومثيرة للاهتمام دورة، مقدمة رائعة إلى Bluemix وNode - red وJS.,course general|||positive,course general|||positive,1
+توصيتي الوحيدة هي إضافة المزيد أسئلة داخل الفيديو.,assignments quantity|||neutral,course general|||positive,0
+أستطيع أن أشعر بمدى الجهد الذي بذلتموه لإيصال هذه المواد إلينا.,material quality|||positive,course general|||positive,0
+هذه دورة رائعة !,course general|||positive,course general|||positive,1
+فهو مناسب للطلاب في المدرسة وكذلك للبالغين الذين يحاولون تعلم شيء جديد والذي قد يكون صعبًا للغاية في سنهم.,course general|||positive,course general|||positive,1
+يسعدني جدًا أنني أخذت هذه الدورة دورة وانتهيت منها.,course general|||positive,course general|||positive,1
+دكتور تشاك لجميع المواد والاختبارات والواجبات.,faculty general|||positive,course general|||positive,0
+المعلومات جيدة ولكنها تسير بسرعة كبيرة ولا أشعر أنني تعلمت منها الكثير.,course general|||positive,course general|||positive,1
+المعلومات جيدة ولكنها تسير بسرعة كبيرة ولا أشعر أنني تعلمت منها الكثير.,course quality|||negative,course general|||positive,0
+المعلومات جيدة ولكنها تسير بسرعة كبيرة ولا أشعر أنني تعلمت منها الكثير.,course comprehensiveness|||negative,course general|||positive,0
+يمكن أن يستفيد منه كبار السن والشباب على حد سواء.,course general|||positive,course general|||positive,1
+- دورة عملية تدريس يقدمها أستاذ قادر.,course quality|||positive,course general|||positive,0
+- دورة عملية تدريس يقدمها أستاذ قادر.,faculty general|||positive,course general|||positive,0
+لقد أحببته لأنه يوفر رؤى عظيمة للشركات أو المشاريع من خلال ربط النظريات الاقتصادية بالأعمال التجارية.,course quality|||positive,course general|||positive,0
+لا أستطيع أن أصدق أنه من الممكن العثور على مثل هذا المؤهل دورة مجانًا!,course quality|||positive,course general|||positive,0
+لا أستطيع أن أصدق أنه من الممكن العثور على مثل هذا المؤهل دورة مجانًا!,course value|||positive,course general|||positive,0
+إنه يستحق بالتأكيد المال الذي دفعته مقابله!,course value|||positive,course general|||positive,0
+لقد وجدت هذه الدورة الدورة متقدمة جدًا بالنسبة لمستوى معرفتي بالإحصاء.,course general|||positive,course general|||positive,1
+يوصى به بشدة لأي شخص في أي مرحلة من مراحل التعلم.,course general|||positive,course general|||positive,1
+آمل أن أكون قادرًا على أخذ المزيد من الفصول الدراسية من جامعة ديوك.,course general|||positive,course general|||positive,1
+. صعبة ) ) لذا فهي توفر لك إمكانية التفكير خارج الصندوق ),assignments quality|||positive,course general|||positive,0
+شكرًا لجميع أعضاء هيئة التدريس على هذه التجربة التعليمية الرائعة.,faculty general|||positive,course general|||positive,0
+أحببته كله تقريبًا.,course general|||positive,course general|||positive,1
+لقد أعجبتني حقًا المحاضرات التفاعلية بتنسيق المجموعات الصغيرة.,presentation quality|||positive,course general|||positive,0
+تجربة عظيمة .,course general|||positive,course general|||positive,1
+الدورة هي تجديد جيد جدًا للأساسيات و الدكتور وايتمان شرح الأمور بوضوح ودقة شديدين.,course general|||positive,course general|||positive,1
+الدورة هي تجديد جيد جدًا للأساسيات و الدكتور وايتمان شرح الأمور بوضوح ودقة شديدين.,faculty comprehensiveness|||positive,course general|||positive,0
+السير هيتوشي موراياما كان مذهلاً.,faculty general|||positive,course general|||positive,0
+مقاطع الفيديو تعمل بسرعة كبيرة عندما يعمل شخص ما بين نوافذ متعددة لإنجاز المهام.,presentation quality|||negative,course general|||positive,0
+الواجبات جيدة ومثيرة للتفكير، ولكنها غير مكتوبة بوضوح.,assignments quality|||positive,course general|||positive,0
+الواجبات جيدة ومثيرة للتفكير، ولكنها غير مكتوبة بوضوح.,assignments comprehensiveness|||negative,course general|||positive,0
+بالإضافة إلى ذلك، لا تحتاج إلى مهارات البرمجة لإكمال المهام، لكن الأمر يستغرق الكثير من الوقت لتعلم أدوات datavis الجاهزة والمجانية وهي محدودة للغاية لتقديم النتائج التي نريدها.,assignments workload|||negative,course general|||positive,0
+ربما يكون ذلك مفيدًا أكثر لشخص لديه بعض الخبرة السابقة، ووقت محدود وبعض المشاكل التي يريد حلها، وليس طالبًا.,course comprehensiveness|||neutral,course general|||positive,0
+إنها فئة أساسية جدًا في التعلم الآلي.,course general|||positive,course general|||positive,1
+الدورة هي وصف مطول لمجال البحث أكثر من كونها جزءًا مناسبًا من التعليم العام.,course general|||positive,course general|||positive,1
+يقدم هذا الكتاب معلومات عامة حول كيفية إنشاء صفحات ويب بسيطة، وبعض علامات HTML الأساسية وبعض الممارسات.,course comprehensiveness|||positive,course general|||positive,0
+الأستاذ يقرأ كل شيء تقريبًا.,faculty general|||negative,course general|||positive,0
+لا يعجبني أن بالطبع يجعلني أشعر بأنني يجب أن أعتمد على منتج معين لحل المشكلات.,course general|||negative,course general|||positive,0
+إن أسلوب التدريس لا يتحدى أو يقدم رؤية حقيقية.,presentation quality|||negative,course general|||positive,0
+هذا أكثر أساسية ويقدم رؤية أساسية حول جميع لغات البرمجة وليس فقط بايثون.,course general|||positive,course general|||positive,1
+لقد كان رائعاً، لا يوجد الكثير من الحسابات، ولكن التركيز أكثر على المفاهيم، مثل النسبية، والنموذج القياسي للجسيمات، وميكانيكا الكم.,course general|||positive,course general|||positive,1
+لقد كان رائعاً، لا يوجد الكثير من الحسابات، ولكن التركيز أكثر على المفاهيم، مثل النسبية، والنموذج القياسي للجسيمات، وميكانيكا الكم.,course quality|||positive,course general|||positive,0
+أتمنى أن تكون معلمتي في الكلية : ( جاجا .,faculty general|||positive,course general|||positive,0
+كانت هذه الفئة رائعة!,course general|||positive,course general|||positive,1
+ألهمتني وحفزتني على مواصلة الدورة  على الرغم من صعوبتي في فهم بعض المفاهيم.,course general|||positive,course general|||positive,1
+لن تتعلم الكثير من المفاهيم أو النظريات أو تمارس أي برمجة R هنا.,course quality|||negative,course general|||positive,0
+نتيجة لذلك، أمضيت كل أسبوع عدة ساعات على المنتديات وStackoverflow لمعرفة ما يريده المصحح التلقائي، بدلاً من تعلم الباندا فعليًا.,course workload|||negative,course general|||positive,0
+إنها دورة مثيرة للاهتمام .,course general|||positive,course general|||positive,1
+الاسبوع الرابع أفضل .,course general|||positive,course general|||positive,1
+جميل !,course general|||positive,course general|||positive,1
+لقد أعطتني الدورة  نظرة عامة على الصناعة، وأنواع اللاعبين فيها، والنماذج والاستراتيجيات المختلفة التي يمكن تطبيقها.,course general|||positive,course general|||positive,1
+مع الوتيرة المضبوطة بشكل صحيح لهذه الفئة، حتى مع معرفة الحساب فقط وعدم وجود أي برمجة على الإطلاق، يجب أن تنجح في هذه الفئة بشرط أن تبذل جهدًا معتدلاً على الأقل!,course general|||positive,course general|||positive,1
+شكرا لكم على جهودكم، لإعطائي تحية بالطبع.,course general|||positive,course general|||positive,1
+لقد كان هناك توازن جيد بين الكثير من الاتساع والوقت المستثمر.,course quality|||positive,course general|||positive,0
+لقد تعلمت الكثير في هذه الدورة .,course general|||positive,course general|||positive,1
+وكانت القصة رائعة .,presentation quality|||positive,course general|||positive,0
+إذا كنت انطوائيًا أو مجرد شخص يقدر الخصوصية، فهذه ليست الدورة  المناسبة لك.,course general|||negative,course general|||positive,0
+5+ نجوم .,course quality|||positive,course general|||positive,0
+تم تدريسها بشكل جيد للغاية .,course general|||positive,course general|||positive,1
+المعلم يعقوب هو مدرس رائع، ومهامه واجبات مكتوبة بتفاصيل كبيرة وخطوات واضحة للغاية، لذا من السهل فهمها وتنفيذها.,faculty general|||positive,course general|||positive,0
+المعلم يعقوب هو مدرس رائع، ومهامه واجبات مكتوبة بتفاصيل كبيرة وخطوات واضحة للغاية، لذا من السهل فهمها وتنفيذها.,assignments quality|||positive,course general|||positive,0
+المعلم يعقوب هو مدرس رائع، ومهامه واجبات مكتوبة بتفاصيل كبيرة وخطوات واضحة للغاية، لذا من السهل فهمها وتنفيذها.,assignments comprehensiveness|||positive,course general|||positive,0
+يقوم المعلم وكذلك هيئة التدريس دائمًا بالإجابة بسرعة وبشكل عميق على أسئلتك أو تعليقاتك في المنتدى.,faculty response|||positive,course general|||positive,0
+في رأيي، أندرو نج يتفوق في تدريس هذه الدورة.,faculty general|||positive,course general|||positive,0
+كانت هذه دورة ممتازة .,course general|||positive,course general|||positive,1
+2 * فقط بسبب المشكلة الفنية التي واجهتها في معظم مقاطع الفيديو لا يتم تحميلها بشكل صحيح. سوف تتعطل في مكان ما وسيستمر الصوت فقط. لذلك لم أتمكن من إنهاء الدورة. بصرف النظر عن ذلك فإن التدريس جيد حقًا. آمل أن تعملوا عليه لإصلاحه.,presentation quality|||negative,course general|||positive,0
+2 * فقط بسبب المشكلة الفنية التي واجهتها في معظم مقاطع الفيديو لا يتم تحميلها بشكل صحيح. سوف تتعطل في مكان ما وسيستمر الصوت فقط. لذلك لم أتمكن من إنهاء الدورة. بصرف النظر عن ذلك فإن التدريس جيد حقًا. آمل أن تعملوا عليه لإصلاحه.,faculty general|||positive,course general|||positive,0
+شكرا جزيلا لك على الفرصة للخوض في هذه الدورة الدورة.,course general|||positive,course general|||positive,1
+لقد أحببت الدورة  .,course general|||positive,course general|||positive,1
+لذلك فإن الواجبات ليست صعبة بشكل خاص - تحصل في هذه الفئة على ما تبذله من جهد!,assignments quality|||negative,course general|||positive,0
+أعترف أن لهجة المعلم كانت تشتت انتباهي في البداية.,faculty general|||neutral,course general|||positive,0
+إلا أنه رائع.,course general|||positive,course general|||positive,1
+أنا حقا أستمتع باكتشاف عالم المعلم والأصدقاء.,course general|||positive,course general|||positive,1
+أشعر بالارتياح مع المفاهيم والخوارزميات.,polarity positive|||positive,course general|||positive,0
+كان من الجميل أن تكون هناك بطاقات تعليمية على الكمبيوتر، أو حتى اختبارات صغيرة إضافية في كل درس.,material quantity|||negative,course general|||positive,0
+المعلم ممتاز .,faculty general|||positive,course general|||positive,0
+المادة  المقدمة جيدة لدورة تمهيدية في تغذية الأطفال.,material quality|||positive,course general|||positive,0
+مقدمة جيدة للاقتصاد الكلي.,course general|||positive,course general|||positive,1
+ومع ذلك، فإن بعض محاضرات الفيديو هي ذات جودة متوسطة فقط.,presentation quality|||negative,course general|||positive,0
+إنه مقدمة ممتازة لـ R.,course quality|||positive,course general|||positive,0
+شكرًا لك أندرو نج على مقاطع الفيديو القصيرة الممتازة مقاطع الفيديو التي قدمت الكثير من المعرفة في فترة قصيرة.,presentation quality|||positive,course general|||positive,0
+شكرًا لك أندرو نج على مقاطع الفيديو القصيرة الممتازة مقاطع الفيديو التي قدمت الكثير من المعرفة في فترة قصيرة.,faculty general|||positive,course general|||positive,0
+لم يستغرق إكمال أي مهمة أكثر من ساعة.,assignments workload|||positive,course general|||positive,0
+مصنوع بشكل جيد للغاية، ومحتويات رائعة.,material quality|||positive,course general|||positive,0
+من المحتمل أن تكون إحدى المشكلات المتعلقة بالدورة هي المحاضرات.,presentation quality|||negative,course general|||positive,0
+أيضًا، اللغة التي يتم تدريسها في هذه (الدورة التدريبية 1) (بايثون) أكثر سهولة في الاستخدام من العديد من لغات البرمجة الأخرى التي جربتها (,course general|||positive,course general|||positive,1
+تم تصميم الدورة التدريبية دورة بأكملها لإثقال كاهلك بالمصطلحات لتتمكن من مواكبة الدورات التدريبية دورة التالية.,course workload|||negative,course general|||positive,0
+بالإضافة إلى ذلك، لم أتمكن بعد من فهم منتدى المناقشة لأنه في رأيي ليس جذابًا.,faculty response|||negative,course general|||positive,0
+أستطيع أن أقول أنني حصلت بالفعل على معلومات يمكنني تطبيقها في مسيرتي المهنية.,course general|||positive,course general|||positive,1
+لقد كان السرد رائعا ومباشرا من القلب.,presentation quality|||positive,course general|||positive,0
+سيدل أجرى دورة عملية ومفيدة للغاية.,faculty comprehensiveness|||positive,course general|||positive,0
+يقوم المعلم بتوضيح كل التفاصيل، على الرغم من أنك قد تواجه مشاكل أصعب بكثير في الواجبات.,assignments comprehensiveness|||negative,course general|||positive,0
+معظمها غير قابلة للقراءة - العديد من الخطوط، والعديد من الألوان، بعضها يحتوي على صور معقدة، وبعضها لا يحتوي على أي معلومات على الإطلاق.,presentation quality|||negative,course general|||positive,0
+أشعر الآن أنني أمتلك فهمًا جيدًا جدًا للانحدار الخطي واللوجستي والشبكات العصبية بالإضافة إلى طرق التعلم الأخرى التي تطرقنا إليها.,course comprehensiveness|||positive,course general|||positive,0
+مفيد للغاية دورة .,course quality|||positive,course general|||positive,0
+شكرا من القلب على هذه الدورة الرائعة  : ),course general|||positive,course general|||positive,1
+ومع ذلك، لا يوجد الكثير من التدريب في هذه الدورة: كما كنت أتوقع.,course general|||neutral,course general|||positive,0
+ممتاز دورة ، أوصي به بشدة!,course general|||positive,course general|||positive,1
+لم أرى تاريخًا محددًا ولكنني أعتقد أن هذا الدورة تم بناؤه في عام 2013 - 2014، لذا فإن المعلومات محدثة بالتأكيد.,course general|||positive,course general|||positive,1
+قد تكون بعض المفاهيم في JavaScript صعبة بالنسبة للطلاب الذين ليس لديهم خلفية في علوم الكمبيوتر، ولكن هذه (الدورة التدريبية 1) تجعل الأمور أسهل للفهم حقًا.,course comprehensiveness|||positive,course general|||positive,0
+سأستخدم بالتأكيد الأدوات التي علموني إياها في سنتي الثانية حتى أكون معلمًا أكثر فعالية.,course general|||positive,course general|||positive,1
+ومن ناحية أخرى، سوف يستفيد الأشخاص الذين لديهم خبرة سابقة في الميكانيكا الإحصائية من إدراج الروابط الأكثر ارتباطًا بميكانيكا الكم والكيمياء الفيزيائية.,course general|||positive,course general|||positive,1
+لقد أصبح لدي فهم أفضل بكثير للدافع والتسويف.,course comprehensiveness|||positive,course general|||positive,0
+على الرغم من أنني كنت ملتزمًا جدًا بجدولي خلال الأسبوع الرابع، إلا أنني استمتعت حقًا بالدورة .,course general|||positive,course general|||positive,1
+المستوى العالي النصوص والرسوم البيانية والمراجع.,material quality|||positive,course general|||positive,0
+بالإضافة إلى زيادة التركيز على المواد المكتوبة، أعتقد أن المزيد من الأمثلة الواقعية للنجاحات والإخفاقات الدبلوماسية ستكون استخدامًا أكثر فعالية وترفيهًا لوقت المحاضرة من الفلسفة الباطنية التي يبدو أنها تميزها في هذه الطبعة.,material relatability|||negative,course general|||positive,0
+شكرا لك أستاذ!,faculty general|||positive,course general|||positive,0
+أكبر شكواي هي أن العديد من البرامج التمارين تحتوي على أخطاء لم يتم إصلاحها، على الرغم من أن هذه الدورة كانت تعمل منذ سنوات.,assignments quality|||negative,course general|||positive,0
+في حين أن هذه أسس ممتازة، أتمنى أن يكون هناك جزء ثانٍ تقريبًا لمزيد من أحدث التقنيات المواد، وخاصة التعلم العميق وتوسيع الشبكات العصبية.,material quality|||positive,course general|||positive,0
+لقد وجدت التمرين مربكًا ومثيرًا للانتباه، ولا يوجد أي مؤشر أو مراجعة لما فعلته خطأً بالفعل.,assignments quality|||negative,course general|||positive,0
+لقد وجدت التمرين مربكًا ومثيرًا للانتباه، ولا يوجد أي مؤشر أو مراجعة لما فعلته خطأً بالفعل.,assignments comprehensiveness|||negative,course general|||positive,0
+كل قسم واضح ويتدفق إلى القسم التالي.,presentation comprehensiveness|||positive,course general|||positive,0
+لقد وجدت أن السرعة، أسلوب المحتوى نجحا معي مما سمح لي بالاستمرار في الدورات الأخرى.,presentation quality|||positive,course general|||positive,0
+بدلاً من الخوف من الفصل الدراسي، وجدت نفسي متحمسًا للحضور كل يوم وتمكنت من التقدم بشكل أسرع من الخطوط العريضة الدورة بسبب أسلوبه التعليمي الواضح والداعم للغاية.,course general|||positive,course general|||positive,1
+شرح مفصل .,presentation relatability|||positive,course general|||positive,0
+كانت المادة  استثنائية، ولكن كما اكتشفت، فإن الواجبات كانت مخففة مقارنة بالإصدار السابق من الدورة الذي كان متاحًا في عام 2014.,material quality|||positive,course general|||positive,0
+كانت المادة  استثنائية، ولكن كما اكتشفت، فإن الواجبات كانت مخففة مقارنة بالإصدار السابق من الدورة الذي كان متاحًا في عام 2014.,assignments quality|||neutral,course general|||positive,0
+شكرا جزيلا لك على هذه الدورة : لقد استمتعت بها حقًا!,course general|||positive,course general|||positive,1
+لقد تعلمت واستمتعت كثيرًا هذه الأسابيع.,course quality|||positive,course general|||positive,0
+إن استخدام الحدس أو الفطرة السليمة كافٍ بالفعل لحل هذه المشاكل.,assignments quality|||neutral,course general|||positive,0
+إن إكمال هذه الدورة دورة يجعلني أشعر بطريقة ما بأنني مستعد بشكل أفضل لدراسة كتب GR ذات المستوى المتوسط / المتقدم التي أملكها منذ فترة طويلة!,course comprehensiveness|||positive,course general|||positive,0
+لذا أوصي بهذه الدورة الدورة لأي شخص يرغب في تحسين مهاراته وزيادة كفاءته في التعلم.,course general|||positive,course general|||positive,1
+جيد جداً : أستاذ صبور ولطيف .,faculty general|||positive,course general|||positive,0
+جيد جداً : أستاذ صبور ولطيف .,course general|||positive,course general|||positive,1
+سيكون من الرائع لو تمكنوا من العودة بدورة  لحساب التفاضل والتكامل متعدد المتغيرات.,course general|||positive,course general|||positive,1
+لقد أحببت هذه الفئة حقًا، كثيرًا جدًا!,course general|||positive,course general|||positive,1
+كانت (المهام 1) صعبة للغاية واختبرت بالفعل معرفتك بالبايثون.,assignments comprehensiveness|||positive,course general|||positive,0
+كانت (المهام 1) صعبة للغاية واختبرت بالفعل معرفتك بالبايثون.,presentation comprehensiveness|||positive,course general|||positive,0
+تم إعداد الفصل بشكل جيد، وهو بمثابة مقدمة رائعة للطلاب الذين يسعون إلى التعرف على التسويق الرقمي.,course general|||positive,course general|||positive,1
+كان التنوع والتركيز على التفاصيل مثيرًا للإعجاب وكان (المحاضر رقم 3) دائمًا جذابًا ومستثمرًا بقوة في المادة.,course comprehensiveness|||positive,course general|||positive,0
+كان التنوع والتركيز على التفاصيل مثيرًا للإعجاب وكان (المحاضر رقم 3) دائمًا جذابًا ومستثمرًا بقوة في المادة.,faculty response|||positive,course general|||positive,0
+كان التنوع والتركيز على التفاصيل مثيرًا للإعجاب وكان (المحاضر رقم 3) دائمًا جذابًا ومستثمرًا بقوة في المادة.,faculty comprehensiveness|||positive,course general|||positive,0
+مفيدة جدًا للمبتدئين. تتحدث ببطء شديد وتستمر في تكرار الكلمات حتى تفهمها.,faculty general|||positive,course general|||positive,0
+مفيدة جدًا للمبتدئين. تتحدث ببطء شديد وتستمر في تكرار الكلمات حتى تفهمها.,course general|||positive,course general|||positive,1
+مفيدة جدًا للمبتدئين. تتحدث ببطء شديد وتستمر في تكرار الكلمات حتى تفهمها.,faculty comprehensiveness|||positive,course general|||positive,0
+أندرو نج يقدم تعليمات قيمة حول الحدس وتنفيذ خوارزميات التعلم الآلي.,faculty general|||positive,course general|||positive,0
+شكرًا لك باربرا وفريق الدورة على مشاركة قصصك الشخصية الملهمة.,faculty general|||positive,course general|||positive,0
+ينبغي عليهم استبدال هذه الاختبارات بالمشروع، حيث تكتب كودًا حقيقيًا.,course quality|||negative,course general|||positive,0
+جيد دورة ولكن قد يكون أكثر تحديًا.,course general|||positive,course general|||positive,1
+جيد دورة ولكن قد يكون أكثر تحديًا.,course quality|||negative,course general|||positive,0
+إذا كنت مبتدئًا تمامًا، فابدأ في بداية هذا التخصص وفقًا لجدولك الزمني الخاص (حسب الطلب بسرعة الضوء) وبسعر مناسب (0 دولار) وكن واثقًا من التقدم الكبير في معرفتك بوظيفة الإنترنت بشكل عام، وبايثون بشكل خاص.,course value|||positive,course general|||positive,0
+لم يكن من المثير للاهتمام بالنسبة لي الاستماع إلى وظائف iPhone وSamsung,course relatability|||negative,course general|||positive,0
+الأستاذ لديه قدر هائل من الكاريزما وطريقة موجزة في تحليل المفاهيم.,faculty general|||positive,course general|||positive,0
+الأستاذ لديه قدر هائل من الكاريزما وطريقة موجزة في تحليل المفاهيم.,faculty comprehensiveness|||positive,course general|||positive,0
+شكرا لك، دكتور تشاك .,faculty general|||positive,course general|||positive,0
+كان من الممكن أن يكون الأمر أفضل لو كانت مشكلة التتبع تحتوي على المزيد من الأمثلة التي توضح التطبيق العملي.,presentation relatability|||neutral,course general|||positive,0
+رائع دورة ، غطى حقًا العديد من التفاصيل!,course general|||positive,course general|||positive,1
+رائع دورة ، غطى حقًا العديد من التفاصيل!,course quality|||positive,course general|||positive,0
+يركز بشكل كبير على التطبيقات الملموسة، ولكن أيضًا على توفير مستوى معين من العمق على الجانب النظري.,course general|||positive,course general|||positive,1
+لقد عرفت بعض الأشياء في الدورة : لكنني لم أكن أعرف شيئًا عن بعض الأشياء الأخرى.,course general|||positive,course general|||positive,1
+قد لا أتفق مع كل شيء في (الدورة الثانية)، وربما جعلتني بعض تصريحاته أشعر بعدم الارتياح قليلاً، ولكن بشكل عام هذه الدورة الثانية جذابة ومفيدة.,faculty general|||negative,course general|||positive,0
+قد لا أتفق مع كل شيء في (الدورة الثانية)، وربما جعلتني بعض تصريحاته أشعر بعدم الارتياح قليلاً، ولكن بشكل عام هذه الدورة الثانية جذابة ومفيدة.,course quality|||positive,course general|||positive,0
+مع ذلك، كانت الدورة  منظمة بشكل جيد للغاية، وكانت تحتوي على أمثلة رائعة، ومحاضرات ممتازة (على الرغم من أنه كان من الممكن توضيح الصوت كثيرًا باستخدام ميكروفون أعلى مستوى، ومضخم صوت مسبق، وواجهة، وبرامج إنتاج صوتية بأسعار معقولة مثل Reaper لتوضيح الصوت).,course quality|||positive,course general|||positive,0
+مع ذلك، كانت الدورة  منظمة بشكل جيد للغاية، وكانت تحتوي على أمثلة رائعة، ومحاضرات ممتازة (على الرغم من أنه كان من الممكن توضيح الصوت كثيرًا باستخدام ميكروفون أعلى مستوى، ومضخم صوت مسبق، وواجهة، وبرامج إنتاج صوتية بأسعار معقولة مثل Reaper لتوضيح الصوت).,course relatability|||positive,course general|||positive,0
+مع ذلك، كانت الدورة  منظمة بشكل جيد للغاية، وكانت تحتوي على أمثلة رائعة، ومحاضرات ممتازة (على الرغم من أنه كان من الممكن توضيح الصوت كثيرًا باستخدام ميكروفون أعلى مستوى، ومضخم صوت مسبق، وواجهة، وبرامج إنتاج صوتية بأسعار معقولة مثل Reaper لتوضيح الصوت).,presentation quality|||positive,course general|||positive,0
+البروفيسور يعقوب تشايكين هو مرشد موهوب.,faculty general|||positive,course general|||positive,0
+مفيد للغاية .,course relatability|||positive,course general|||positive,0
+الدورة  جيدة جدًا، ولكن أود أن أقدم ثلاثة اقتراحات: 1) ليس لديك ردود فعل على ما فعلته خطأ في التمارين.,course general|||positive,course general|||positive,1
+أوصي بشدة بكل من يريد فهم الفروق الدقيقة للقوة والتأثير واستخدامها لتوصيل أفكاره الصحيحة وتجنب التأثر بالأفكار الخاطئة.,course general|||positive,course general|||positive,1
+هاريس يعلم الأشياء المعقدة بطريقة سهلة.,faculty comprehensiveness|||positive,course general|||positive,0
+لقد قمت بعمل عظيم!,course general|||positive,course general|||positive,1
+لقد ساعدني هذا (الدورة التدريبية رقم 1) كثيرًا في أن أصبح قائدًا صاحب رؤية.,course general|||positive,course general|||positive,1
+بالإضافة إلى ذلك، فهو يتمتع بمهارات عرض ممتازة، مما يجعل محاضراته ممتعة وسهلة المتابعة.,faculty general|||positive,course general|||positive,0
+بالإضافة إلى ذلك، فهو يتمتع بمهارات عرض ممتازة، مما يجعل محاضراته ممتعة وسهلة المتابعة.,faculty comprehensiveness|||positive,course general|||positive,0
+(1: قامت الدكتورة مايا آدم بعمل جيد جدًا مع مقاطع فيديو المحاضرات ومحتوى الدورة وما إلى ذلك.,faculty general|||positive,course general|||positive,0
+لقد أعجبت كثيرًا بـ المعلم (لهجته وطريقة شرحه جعلت الأمر ممتعًا للغاية).,faculty general|||positive,course general|||positive,0
+بعض المشاكل مع مهمة البرمجة.,assignments comprehensiveness|||negative,course general|||positive,0
+إن الطريقة خطوة بخطوة لشرح هذا المجال المعقد بعبارات بسيطة مفيدة حقًا.,presentation comprehensiveness|||positive,course general|||positive,0
+استثنائي العرض التقديمي .,presentation quality|||positive,course general|||positive,0
+هذه دورة ممتازة دورة لأي شخص لفهم ما هو التعلم الآلي.,course general|||positive,course general|||positive,1
+خيبة أمل قليلة .,course general|||negative,course general|||positive,0
+لكنها دورة متميزة دورة، ومن المدهش، إذا فكرت في الأمر، أن يكون لديك ساعات من الوصول المجاني إلى غاري بيرتون.,course general|||positive,course general|||positive,1
+قد يكون تنزيل الكود خيارًا، ولكن من الأفضل لنا كتابة الكود باتباع المحاضرة، لأن التنزيل يجعلني كسولًا، وكتابة الكود بأنفسنا هي طريقة جيدة للتعلم.,course general|||negative,course general|||positive,0
+شكرًا جزيلاً لـ السيد كيم على التدريس الاحترافي العالي والوقت الممتع.,faculty comprehensiveness|||positive,course general|||positive,0
+شكرًا جزيلاً لـ السيد كيم على التدريس الاحترافي العالي والوقت الممتع.,faculty general|||positive,course general|||positive,0
+لأن القراءة هي التي نستطيع من خلالها أن نقوم بأنفسنا - والكثير المحتوى متوفر مجانًا.,material quality|||positive,course general|||positive,0
+الدورة جيدة حقًا.,course general|||positive,course general|||positive,1
+بفضل دورة HTML وCSS دورة في CODECADEMY، أصبحت قادرًا على كتابة HTML بسيط، وقراءة كود شخص آخر والعثور على الموارد اللازمة لبدء صفحتي الخاصة.,course general|||positive,course general|||positive,1
+مرحبًا، لقد أحببت هذا الدورة.,course general|||positive,course general|||positive,1
+لقد استمتعت حقًا بهذه الدورة الدورة بشكل عام (وكانت سهلة إلى حد ما بالنسبة لي لأن لدي بعض الخلفية في هذا بالفعل)، ولكن كانت هناك بعض المشكلات الفنية خاصة فيما يتعلق بالوصول إلى المهام.,course general|||positive,course general|||positive,1
+لقد استمتعت حقًا بهذه الدورة الدورة بشكل عام (وكانت سهلة إلى حد ما بالنسبة لي لأن لدي بعض الخلفية في هذا بالفعل)، ولكن كانت هناك بعض المشكلات الفنية خاصة فيما يتعلق بالوصول إلى المهام.,assignments quality|||negative,course general|||positive,0
+لقد نجح هذا الفصل في تدريس أساسيات R، لكنه لم يفعل أي شيء نحو تدريس اختبار كود R (جزء أساسي من كتابة الكود!) وأفضل الممارسات للتجزئة والتحليل إلى عوامل، وما إلى ذلك.,faculty general|||positive,course general|||positive,0
+لقد قمت بمراجعة 7 أوراق (متطلب 3) وأظهر أنها ناقصة.,course general|||negative,course general|||positive,0
+مع الجزء الأول من دورة سأوصي به لجميع الطلاب العاملين في مجال تكنولوجيا النانو.,course general|||positive,course general|||positive,1
+لدي الكثير من الأسئلة، ولكن حتى أرى الدورة النهائية الدورة، لا أستطيع أن أقول ما إذا كان سيتم تناولها أم لا.,course general|||neutral,course general|||positive,0
+شعرت أن (الدورة 1) تركز بشكل أكبر على المملكة المتحدة، كما أن القليل من التبصر في التعليم بالإشارة إلى التربويين القدامى يجب أن يكون ميزة إضافية!,polarity neutral|||positive,course general|||positive,0
+شعرت أن (الدورة 1) تركز بشكل أكبر على المملكة المتحدة، كما أن القليل من التبصر في التعليم بالإشارة إلى التربويين القدامى يجب أن يكون ميزة إضافية!,course general|||positive,course general|||positive,1
+إن المحاضرات تشرح الأساسيات الأساسية في Swift، والتي تعد مفيدة حقًا، ولكنها ليست شاملة بما فيه الكفاية.,presentation comprehensiveness|||negative,course general|||positive,0
+شكرا لك على هذه المحاضرة - إنها حقا تجربة تغيير حياة بالنسبة لي!,course quality|||positive,course general|||positive,0
+أعتقد أن معظم المحاضرين قاموا بعمل رائع في شرح المواد الموجودة في الدورة.,faculty comprehensiveness|||positive,course general|||positive,0
+كانت تجربة جيدة .,course general|||positive,course general|||positive,1
+أعتقد أنني قضيت حوالي 20 ساعة في الأسبوع لمحاولة استيعاب المادة.,material workload|||positive,course general|||positive,0
+أنا أحب محاضرات الدكتورة أوكلي (2: استخدامها للاستعارات والزومبي يجعل الدورة ممتعة حقًا.,faculty value|||positive,course general|||positive,0
+أنا أحب محاضرات الدكتورة أوكلي (2: استخدامها للاستعارات والزومبي يجعل الدورة ممتعة حقًا.,presentation quality|||positive,course general|||positive,0
+شكرًا لك دكتور. بيشيري على إرشادي خلال هذه الدورة.,faculty general|||positive,course general|||positive,0
+بحلول النهاية، شعرت أنني أمتلك حقًا فهمًا قويًا للبرمجة منخفضة المستوى ومفاهيم البرمجة الأساسية.,course comprehensiveness|||positive,course general|||positive,0
+أنا مرتبط جدًا بهذا الدورة وسأجد أنه من الصعب للغاية عدم وجود رد فعل عاطفي تجاهه.,course general|||positive,course general|||positive,1
+سيكون التدوين الوظيفي والتسلسل مفيدًا بشكل خاص.,course quality|||positive,course general|||positive,0
+أنا ممتن إلى الأبد .,course general|||positive,course general|||positive,1
+عادةً ما يكون حل المشكلات بسيطًا للغاية، ولكنه لا ينطبق على مجموعة كبيرة من المشكلات، بل ينطبق فقط على مجموعة البيانات المعينة (ولم يتم تحديد خصائص هذه المجموعة من البيانات؛ لذا ينتهي بي الأمر بالتفكير في جميع الاحتمالات التي قد تحدث لهذه المجموعة من البيانات، مما يجعل المشكلة أكثر صعوبة).,assignments quality|||neutral,course general|||positive,0
+لقد أكملت هذه الدورة الدورة في وقت قصير ولكن الدورة الدورة رائعة وتوفر معلومات من الأساسيات و مقاطع الفيديو تساعد كثيرًا.,course general|||positive,course general|||positive,1
+لقد أكملت هذه الدورة الدورة في وقت قصير ولكن الدورة الدورة رائعة وتوفر معلومات من الأساسيات و مقاطع الفيديو تساعد كثيرًا.,material quality|||positive,course general|||positive,0
+المعلومات التي يقدمها لك بجانب الدورة نفسها مفيدة حقًا في إنشاء ألعابك الخاصة! والتدرب عليها بنفسك.,faculty relatability|||positive,course general|||positive,0
+لقد شعرت أيضًا أن الأقسام الخاصة بالبرمجة الديناميكية بدت متسرعة بعض الشيء وكنت بحاجة إلى قضاء بعض الوقت في البحث عن هذا الأمر لدى أطراف ثالثة قبل أن أشعر بالراحة في إكمال التمارين.,material quality|||negative,course general|||positive,0
+الأستاذ يعقوب موهوب بشكل لا يصدق ويحافظ على ديناميكية الدروس ويدخل في التفاصيل دون أن يجعلها مرهقة.,faculty general|||positive,course general|||positive,0
+الأستاذ يعقوب موهوب بشكل لا يصدق ويحافظ على ديناميكية الدروس ويدخل في التفاصيل دون أن يجعلها مرهقة.,faculty comprehensiveness|||positive,course general|||positive,0
+هذه (الدورة 1) رائعة .,course general|||positive,course general|||positive,1
+تحتوي الشرائح على العديد من الأخطاء والأخطاء المطبعية، مما يجعلك تشك في الدورة بأكملها.,presentation quality|||negative,course general|||positive,0
+تم تقديم النص اللازم الذي كان ينبغي تدريسه بعناية، دون خنق الطالب.,material quality|||positive,course general|||positive,0
+أوصي بهذه الدورة الدورة للمطورين الحاليين الذين ليس لديهم خلفية في علوم الكمبيوتر.,course general|||positive,course general|||positive,1
+الكثير من الآراء مبنية على أدلة ضئيلة.,course quality|||negative,course general|||positive,0
+هذه السلسلة من الدروس تستحق أكثر من الوقت والتكلفة.,course value|||positive,course general|||positive,0
+هذا رائع حقا .,course general|||positive,course general|||positive,1
+إنها دورة موصى بها دورة لأي معلم هناك.,course general|||positive,course general|||positive,1
+لم تغطي الدورة المادة ما نحتاجه للاختبارات الأسبوعية (خاصة في الأسبوع 3 و 4) وكان الاختبار النهائي صعبًا للغاية.,assignments workload|||negative,course general|||positive,0
+لم تغطي الدورة المادة ما نحتاجه للاختبارات الأسبوعية (خاصة في الأسبوع 3 و 4) وكان الاختبار النهائي صعبًا للغاية.,material comprehensiveness|||negative,course general|||positive,0
