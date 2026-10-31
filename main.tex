@@ -1,0 +1,390 @@
+\documentclass[review,12pt]{elsarticle}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\journal{Natural Language Processing Journal}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Dynamic Adapter Routing for Multilingual Aspect-Category Detection: Performance Gains, Language-Level Evaluation, and Routing Behavior}
+
+\author[inst1]{Jajula Hari Babu\corref{cor1}}
+\ead{22022P0590@jntuk.edu.in}
+\author[inst2]{P. Pedda Sadhu Naik}
+
+\cortext[cor1]{Corresponding author.}
+
+\affiliation[inst1]{organization={Department of Computer Science and Engineering, Jawaharlal Nehru Technological University Kakinada (JNTUK)},
+city={Kakinada},
+country={India}}
+
+\affiliation[inst2]{organization={Department of Computer Science and Engineering, Dr. Samuel George Institute of Engineering and Technology},
+city={Markapur},
+country={India}}
+
+\begin{abstract}
+Multilingual aspect-category detection requires models to identify course-related categories across languages with different scripts, morphology, and idioms. Multilingual encoders such as XLM-RoBERTa share parameters across languages, which may limit adaptation to individual languages or reviews. This study evaluates whether input-dependent routing over four bottleneck adapters improves multilingual aspect-category detection on the official Coursera partition of M-ABSA, comprising 45,688 reviews in 21 languages and 31 labels. We compare an XLM-RoBERTa-base baseline, a same-size four-adapter uniform-averaging model, and a dynamic-routing model using three random seeds and development-only threshold tuning. Dynamic routing achieves mean micro-F1 of 0.5261 and subset accuracy of 0.3231, exceeding the baseline by 1.29 and 2.94 percentage points, respectively. It improves both metrics on average in all 21 languages, whereas uniform averaging does not produce consistent gains. Routing adds only 399,620 parameters and increases GPU inference latency by 4.15\%. Micro average precision also improves from 0.5950 to 0.6140, although the three-seed paired test is not statistically significant. Routing-weight analysis shows near-deterministic behavior: one adapter receives mean weight 0.991--0.996 and dominates all 11,865 test reviews in every seed and language, with normalized entropy of 0.022--0.042. Thus, dynamic routing improves aggregate multilingual performance but does not provide clear evidence of input-adaptive language specialization. Macro-F1 remains lower for routing, revealing an aggregate-versus-category trade-off.
+\end{abstract}
+
+\begin{keyword}
+Multilingual aspect-category detection \sep Dynamic adapter routing \sep XLM-RoBERTa \sep Adapter fusion \sep Multi-label classification \sep M-ABSA \sep Mixture-of-experts
+\end{keyword}
+
+\end{frontmatter}
+
+\section{Introduction}
+Online-course reviews often discuss several topics simultaneously, including course content, instructor support, assessment, platform usability, and workload. Aspect-category detection (ACD) is the multi-label task of identifying the predefined categories discussed in a review. A review may contain one category, several categories, or no category. Accurate ACD enables organizations to analyze feedback at a finer level than overall sentiment classification.
+
+ACD becomes more challenging in multilingual settings. Reviews arrive in languages with different scripts, word orders, morphological systems, and idiomatic expressions. A multilingual encoder such as XLM-RoBERTa provides a strong shared representation, but it processes every input with the same parameters. Languages may therefore compete for a fixed representational capacity.
+
+Adapter modules offer a parameter-efficient way to add task-specific capacity to a pretrained encoder. In practice, multiple adapters are often combined using fixed weights, so every review receives the same mixture. This raises a fundamental question: does learned, review-specific routing over several adapters outperform a fixed combination of adapters of the same size?
+
+This study addresses that question for multilingual ACD. We add four bottleneck adapters to XLM-RoBERTa-base and use a lightweight gating network to assign review-specific weights to the adapter outputs. We compare this dynamic-routing model with a standard XLM-RoBERTa-base baseline, a four-adapter uniform-averaging model of nearly identical size, and the dynamic four-adapter routing model.
+
+The study asks five research questions:
+\begin{itemize}
+\item \textbf{RQ1.} Does dynamic adapter routing improve micro-F1 and subset accuracy over an XLM-RoBERTa baseline?
+\item \textbf{RQ2.} Does it outperform a same-size four-adapter model that averages adapters uniformly?
+\item \textbf{RQ3.} Are improvements consistent across seeds, languages, and labels?
+\item \textbf{RQ4.} What does routing cost in parameters, training time, and inference latency?
+\item \textbf{RQ5.} Does the learned router produce genuinely input-adaptive behavior?
+\end{itemize}
+
+We evaluate the models on the official Coursera partition of M-ABSA, which contains 45,688 usable reviews in 21 languages and 31 labels. We retain the official train, development, and test splits, tune thresholds only on the development set, and train each model with three random seeds.
+
+The paper makes five contributions:
+\begin{itemize}
+\item A lightweight review-level routing model over four bottleneck adapters for multilingual ACD.
+\item A same-size uniform-averaging control that separates the effect of routing from the effect of additional parameters.
+\item A multilingual evaluation across 21 languages, including per-seed and per-language results.
+\item A threshold-free micro-AP evaluation and routing-behavior analysis.
+\item A transparent cost analysis covering parameters, training time, and GPU inference latency.
+\end{itemize}
+
+Our main finding is nuanced. Dynamic routing improves pooled and per-language aggregate performance, but routing-weight analysis shows that the gate assigns nearly all weight to a single adapter in every seed and in every language. Therefore, the improvement cannot be confidently attributed to genuine input-adaptive adapter specialization.
+
+\section{Background and Related Work}
+
+\subsection{Aspect-category detection}
+Aspect-based sentiment analysis (ABSA) studies opinions about specific aspects of a product or service rather than the text as a whole. Its tasks include aspect-term extraction, opinion-target extraction, aspect-category detection, and polarity classification. ACD is formulated here as multi-label classification because one review may discuss multiple categories.
+
+Early ACD systems used lexical resources, hand-crafted features, and classical classifiers. Later systems used recurrent, convolutional, and attention-based neural networks. Pretrained Transformer encoders are now the dominant starting point for ACD. However, many widely used ABSA benchmarks cover only one language or a small number of languages, limiting their usefulness for multilingual evaluation.
+
+\subsection{Multilingual encoders and M-ABSA}
+XLM-RoBERTa is a multilingual Transformer encoder pretrained on approximately 100 languages. It is widely used for cross-lingual classification. Because all languages share the same encoder parameters, languages with different structures may compete for the same representational capacity.
+
+M-ABSA is a multilingual dataset for aspect-based sentiment analysis. Its Coursera partition contains online-course reviews in 21 languages. The language versions are line-aligned translations of shared source reviews, making the dataset suitable for controlled multilingual evaluation but also requiring care in statistical analysis.
+
+\subsection{Adapters and routing}
+Adapters are small bottleneck modules inserted into or appended to a pretrained model. Each adapter typically contains a down-projection, a non-linear activation, an up-projection, and a residual connection. They add task-specific capacity while modifying relatively few parameters compared with full fine-tuning.
+
+Several methods combine adapters or other lightweight modules. AdapterFusion composes separately trained adapters using attention-based fusion. UniPELT gates among multiple parameter-efficient modules. Our setting differs in that the adapters, classifier, and gate are trained jointly in one stage, and routing is computed once per review from the CLS representation.
+
+\subsection{Mixture-of-experts and routing collapse}
+Routing over multiple modules is related to mixture-of-experts models. A softmax gate can assign input-specific weights to experts, allowing different inputs to use different combinations of modules. However, learned routers do not always produce balanced expert usage. In some cases, one expert receives most of the routing mass, effectively reducing the model to a single expert.
+
+This phenomenon is important for adapter routing. If a router assigns almost all weight to one adapter, the architecture may still outperform a baseline, but the improvement may arise from effective adapter selection or training dynamics rather than genuine input-adaptive specialization.
+
+\subsection{Research gap}
+Three gaps motivate this study. First, many multilingual classification systems use one shared encoder without input-dependent adaptation. Second, adapter-based systems often merge adapters with fixed weights, and controlled comparisons of jointly trained review-level routing in multilingual ACD are limited. Third, performance gains alone do not establish that a router is genuinely adaptive; routing weights must also be analyzed.
+
+We address these gaps with a controlled comparison and an explicit routing-behavior analysis. We do not claim that dynamic routing outperforms all parameter-efficient methods, because we do not compare with AdapterFusion, LoRA-style methods, or other mixture-of-adapter approaches.
+
+\section{Task and Data}
+
+\subsection{Task definition}
+Let a review be a token sequence $x=(w_1,\ldots,w_n)$. Let $K=31$ denote the number of labels. The target for each review is a binary vector $y\in\{0,1\}^K$, where $y_k=1$ if the review is annotated with label $k$.
+
+The model maps a review to probabilities $p\in[0,1]^K$. A label $k$ is predicted when $p_k\geq\tau$, where $\tau$ is a decision threshold selected on the development set. Each label is treated as an independent binary decision. The task is aspect-category detection; sentiment polarity is not evaluated as a separate classification task.
+
+\subsection{Dataset}
+We use the official Coursera partition of M-ABSA. The dataset contains online-course reviews in 21 languages: Arabic, Danish, German, English, Spanish, French, Hindi, Croatian, Indonesian, Japanese, Korean, Dutch, Portuguese, Russian, Slovak, Swedish, Swahili, Thai, Turkish, Vietnamese, and Chinese.
+
+After removing 92 malformed annotation lines, the dataset contains 45,688 usable reviews. The official splits contain 26,790 training, 7,033 development, and 11,865 test reviews.
+
+\begin{table}[htbp]
+\centering
+\caption{Dataset statistics for the official Coursera partition of M-ABSA.}
+\label{tab:dataset}
+\begin{tabular}{lrrr}
+\toprule
+Split & Reviews & Mean labels per review & Reviews with no label \\
+\midrule
+Train & 26,790 & 0.886 & 26.42\% \\
+Development & 7,033 & 0.953 & 22.24\% \\
+Test & 11,865 & 1.225 & 0.00\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The 21 language versions are line-aligned translations of the same source reviews. The test set therefore contains 11,865 translated reviews corresponding to 566 source reviews. This means that language-level results are not independent replications.
+
+The original label vocabulary contains 31 labels. Of these, 27 are aspect-related categories, while four are artifacts of the source annotations: three polarity-related labels and one stray Spanish label. We retain the official 31-label vocabulary for the primary experiments and separately report a cleaned 26-label sensitivity analysis in Section~\ref{sec:cleaned}.
+
+\subsection{Preprocessing}
+Reviews are tokenized using the XLM-RoBERTa tokenizer and truncated or padded to 128 sub-word tokens. Attention masks prevent padded positions from contributing to computation. Checkpoints and decision thresholds are selected using the development set only. The test set is used once for final evaluation.
+
+\section{Models}
+All models share the XLM-RoBERTa-base encoder with hidden size $d=768$. They differ only in the adaptation layer between the encoder output and the classifier.
+
+\subsection{Baseline}
+For a review $x$, the encoder produces token representations $H=(h_0,h_1,\ldots,h_{n-1})$. The CLS vector $h_0$ is used as the review representation. The baseline applies dropout and a linear classification layer:
+\begin{equation}
+p=\sigma(W_c\operatorname{Dropout}(h_0)+b_c),
+\end{equation}
+where $W_c\in\mathbb{R}^{K\times d}$, $b_c\in\mathbb{R}^K$, and $\sigma$ is the sigmoid function.
+
+\subsection{Bottleneck adapters}
+Each adapter $A_j$ is a feed-forward bottleneck module with hidden size $r=64$. Each adapter contains 99,136 parameters. Unlike adapters placed inside every Transformer layer, these adapters operate on the final-layer CLS representation.
+
+\subsection{Dynamic four-adapter routing}
+The proposed model contains four independent adapters and a gating network. The gate maps the CLS vector to four scores and applies a softmax. The adapter outputs are mixed using the routing weights, and the adapted representation replaces $h_0$ in the classifier. Because the routing weights depend on $h_0$, each review receives its own adapter mixture. The gate adds 3,076 parameters.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.95\linewidth]{figures/figure1_model_architecture.png}
+\caption{Architecture of the dynamic four-adapter routing model. A gating network reads the CLS representation, produces softmax weights, and mixes four bottleneck adapters before the multi-label classifier. A decision threshold, tuned on the development set, converts probabilities into category predictions.}
+\label{fig:architecture}
+\end{figure}
+
+\subsection{Four-adapter average-fusion control}
+The control model uses the same four adapters but no gate. Their outputs are averaged uniformly. This model adds 396,544 parameters, which is 3,076 fewer than the routing model because it has no gate. The comparison isolates the effect of learned routing from the effect of additional adapter parameters.
+
+\subsection{Training objective}
+Because the label distribution is highly imbalanced, all models use weighted binary cross-entropy loss. For label $k$, the positive-class weight is $(N-n_k)/n_k$, where $N$ is the number of training reviews and $n_k$ is the number of training reviews containing label $k$. The weight is clipped to the range $[1,30]$. The loss averages over labels and batches.
+
+\subsection{Decision threshold}
+For each model and seed, thresholds from 0.05 to 0.95 in steps of 0.01 are evaluated on the development set. The selected threshold maximizes the mean of development micro-F1 and macro-F1. The selected threshold is applied unchanged to the test set. The test set is never used for threshold selection.
+
+\section{Experimental Setup}
+
+\begin{table}[htbp]
+\centering
+\caption{Training configuration.}
+\label{tab:training}
+\begin{tabular}{ll}
+\toprule
+Component & Setting \\
+\midrule
+Encoder & XLM-RoBERTa-base \\
+Hidden size & 768 \\
+Maximum sequence length & 128 sub-word tokens \\
+Labels & 31 \\
+Adapters & 4, bottleneck size 64 \\
+Gate & Linear, 768 to 4, softmax \\
+Dropout & 0.1 \\
+Loss & Weighted binary cross-entropy \\
+Positive-class weight clipping & [1, 30] \\
+Learning rate & 2e-5 \\
+Weight decay & 0.01 \\
+Batch size & 16 \\
+Epochs & 3 \\
+Checkpoint selection & Lowest development loss \\
+Seeds & 42, 43, 44 \\
+Optimizer & AdamW \\
+GPU & NVIDIA Tesla T4 \\
+Precision & FP16 mixed precision \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Evaluation metrics}
+We report micro-F1, subset accuracy, macro-F1, and micro average precision (micro-AP). Micro-F1 pools all label decisions across reviews; subset accuracy measures exact match of the predicted label set; macro-F1 averages per-label F1 scores; and micro-AP evaluates threshold-free ranking quality by flattening all review-label decisions.
+
+\subsection{Efficiency measurement}
+We report parameter counts, mean training time over seeds, and GPU inference latency for seed-42 checkpoints. Latency is measured using 10 warm-up batches followed by 100 timed batches of 16 test reviews.
+
+\subsection{Statistical analysis}
+Because the 21 language versions are translations of the same source reviews, language-level rows are not independent. Statistical analyses therefore resample source-review clusters rather than treating translated reviews as independent observations.
+
+For the cleaned 26-label robustness analysis, we report cluster-aware bootstrap confidence intervals using 10,000 bootstrap samples and 10,000 randomizations, with Holm correction across six tests. For micro-AP, we report an exploratory paired permutation test over the three seed-level differences; this test has limited power and is not presented as a definitive seed-population test.
+
+\section{Results}
+
+\subsection{Main results}
+\begin{table}[htbp]
+\centering
+\caption{Main test results on the official Coursera partition of M-ABSA, reported as mean $\pm$ standard deviation over seeds 42, 43, and 44.}
+\label{tab:main}
+\begin{tabular}{lrrrr}
+\toprule
+Model & Micro-F1 & Subset accuracy & Macro-F1, 31 labels & Parameters \\
+\midrule
+XLM-RoBERTa baseline & 0.5132 $\pm$ 0.0205 & 0.2937 $\pm$ 0.0516 & 0.2625 $\pm$ 0.0082 & 278.07M \\
+Four-adapter average fusion & 0.5145 $\pm$ 0.0110 & 0.2907 $\pm$ 0.0310 & 0.2539 $\pm$ 0.0047 & 278.47M \\
+Four-adapter dynamic routing & \textbf{0.5261 $\pm$ 0.0145} & \textbf{0.3231 $\pm$ 0.0373} & 0.2531 $\pm$ 0.0096 & 278.47M \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Dynamic routing improves micro-F1 by 1.29 percentage points and subset accuracy by 2.94 percentage points over the baseline. It improves micro-F1 by 1.16 percentage points and subset accuracy by 3.24 percentage points over uniform averaging.
+
+\textbf{Answer to RQ1:} Dynamic routing improves pooled micro-F1 and subset accuracy over the baseline.
+
+\textbf{Answer to RQ2:} Dynamic routing outperforms the same-size uniform-averaging control.
+
+\subsection{Per-seed results}
+\begin{table}[htbp]
+\centering
+\caption{Per-seed test results.}
+\label{tab:seeds}
+\begin{tabular}{lrrrr}
+\toprule
+Model & Seed & Micro-F1 & Subset accuracy & Macro-F1 \\
+\midrule
+Baseline & 42 & 0.4946 & 0.2519 & 0.2708 \\
+Baseline & 43 & 0.5352 & 0.3515 & 0.2544 \\
+Baseline & 44 & 0.5097 & 0.2778 & 0.2623 \\
+Average fusion & 42 & 0.5068 & 0.2613 & 0.2568 \\
+Average fusion & 43 & 0.5271 & 0.3231 & 0.2485 \\
+Average fusion & 44 & 0.5096 & 0.2876 & 0.2566 \\
+Dynamic routing & 42 & 0.5107 & 0.2887 & 0.2551 \\
+Dynamic routing & 43 & 0.5396 & 0.3628 & 0.2427 \\
+Dynamic routing & 44 & 0.5279 & 0.3177 & 0.2616 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Dynamic routing beats the baseline on micro-F1 and subset accuracy in all three seeds. It also beats uniform averaging in all three seeds. However, the gains are modest relative to seed-level variation. With only three seeds, the results should be interpreted as consistent directional evidence rather than definitive statistical proof.
+
+\subsection{Results by language}
+Dynamic routing improves both micro-F1 and subset accuracy over the baseline on average in all 21 languages. Micro-F1 gains range from 0.22 percentage points in Turkish to 2.20 percentage points in Arabic. Subset-accuracy gains range from 1.53 percentage points in Danish to 4.59 percentage points in English.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.95\linewidth]{figures/figure3_language_microf1_gains.png}
+\caption{Mean micro-F1 improvement of four-adapter dynamic routing over the XLM-RoBERTa baseline across 21 languages, averaged over seeds 42, 43, and 44. Gains range from 0.22 percentage points in Turkish to 2.20 percentage points in Arabic.}
+\label{fig:language}
+\end{figure}
+
+Because the 21 languages are translations of the same source reviews, positive signs across languages do not imply 21 independent replications.
+
+\textbf{Answer to RQ3:} Dynamic routing improves aggregate performance across languages, but the per-language gains are descriptive rather than independently significant.
+
+\subsection{Category-level results}
+Three labels have no test support: polarity negative, presentation workload, and proyecto final. Excluding them does not change the ranking. The baseline still achieves the highest macro-F1 over the 28 supported labels. Thus, dynamic routing improves pooled and whole-review accuracy but does not improve equally weighted category-level performance.
+
+\subsection{Threshold-free evaluation: Micro-AP}
+Dynamic routing improves micro-AP by 1.90 percentage points over the baseline. The improvement is consistent in direction across all three seeds: 0.616040, 0.618156, and 0.607793 for dynamic routing, compared with 0.609563, 0.585831, and 0.589525 for the baseline.
+
+An exploratory paired permutation test using the three seed-level differences gives $p_{\mathrm{raw}}=0.252$ and $p_{\mathrm{Holm}}=0.504$ for dynamic routing versus baseline. Uniform averaging is essentially equal to the baseline, with a difference of $-0.000541$ and $p_{\mathrm{Holm}}=1.000$.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.85\linewidth]{figures/figure4_microap_comparison.png}
+\caption{Mean micro average precision (micro-AP) on the multilingual test set, averaged over seeds 42, 43, and 44. Dynamic routing improves threshold-free ranking quality by 1.90 percentage points over the baseline.}
+\label{fig:microap}
+\end{figure}
+
+\subsection{Routing behavior}
+In every seed, one adapter receives almost all routing mass and is dominant for all 11,865 test reviews. The remaining adapters receive very small weights. Normalized entropy is low, ranging from 0.022 to 0.042.
+
+For each review, routing entropy was computed as $H_i=-\sum_{j=1}^{4}\alpha_{ij}\ln\alpha_{ij}$, using natural logarithms. It was normalized by $\ln 4$, so that 0 indicates deterministic selection of one adapter and 1 indicates a uniform 0.25 weight on each adapter.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.95\linewidth]{figures/figure2_routing_weights.png}
+\caption{Distribution of dynamic-routing weights over four adapters for each training seed on the 11,865-review multilingual test set. In every seed, one adapter receives almost all routing mass, while the remaining adapters receive weights close to zero.}
+\label{fig:routing}
+\end{figure}
+
+\textbf{Answer to RQ5:} The router does not show meaningful input-adaptive behavior in this setup. It effectively collapses to near-deterministic selection of one adapter per seed.
+
+\subsection{Routing behavior across languages}
+Routing weights are nearly identical across the 21 languages within each seed. In seed 42, Adapter 4 is dominant for 100\% of reviews in every language. In seed 43, Adapter 3 is dominant for all reviews in every language. In seed 44, Adapter 2 is dominant for all reviews in every language.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.95\linewidth]{figures/figure5_routing_entropy_by_language.png}
+\caption{Normalized routing entropy across 21 languages for each training seed. Entropy remains low in every language, indicating that the router selects one adapter almost exclusively regardless of language.}
+\label{fig:entropy}
+\end{figure}
+
+\subsection{Cleaned 26-label sensitivity analysis}
+\label{sec:cleaned}
+The original 31-label vocabulary includes four annotation artifacts: three polarity-related labels and one stray Spanish label. To assess whether these artifacts affect conclusions, we repeat the analysis using a cleaned 26-label vocabulary.
+
+The cleaned analysis uses the same 11,865 test reviews. Reviews are grouped into 566 official-line clusters or 565 content-based duplicate clusters. We compute cluster-aware bootstrap confidence intervals using 10,000 bootstrap samples and 10,000 randomizations, with Holm correction across six tests.
+
+The bootstrap procedure resampled source-review clusters and pooled the saved predictions from all three seeds within each resample. It therefore quantifies uncertainty due to cluster sampling, conditional on the three trained checkpoints, rather than uncertainty across the population of training seeds. The cleaned 26-label evaluation used a fixed threshold of 0.5 for all models and seeds, whereas the primary 31-label evaluation used development-selected per-seed thresholds.
+
+The $-0.245$-point micro-F1 difference in the cleaned 26-label analysis and the $+1.29$-point difference in the primary 31-label evaluation arise from different evaluation settings. The primary analysis uses 31 labels, development-selected per-seed thresholds, and the mean of three seed-level test scores. The cleaned analysis uses 26 labels, a fixed 0.5 threshold, and a cluster-bootstrap estimate that pools predictions from all three seeds. Because these settings differ, the two estimates should be interpreted as separate analyses rather than as contradictory effect sizes. A same-pipeline decomposition of label-level false positives and false negatives is left for future work.
+
+\subsection{Computational cost}
+Dynamic routing adds 399,620 parameters, or 0.14\% of the baseline. GPU inference latency increases by 0.116 ms per review, or 4.15\%. Most of the latency increase comes from the adapters rather than the gate.
+
+\textbf{Answer to RQ4:} Routing is computationally inexpensive, but it does not eliminate adapter-related inference overhead.
+
+\section{Discussion}
+
+\subsection{Interpretation of performance gains}
+Dynamic routing improves micro-F1, subset accuracy, and micro-AP over the baseline. Because the uniform-averaging model has nearly the same number of parameters, the improvement is associated with learned routing rather than additional adapter capacity alone.
+
+However, routing-weight analysis shows that the gate does not distribute weight meaningfully across adapters. In each seed, one adapter receives almost all weight for every test review and every language. Thus, the dynamic-routing model behaves approximately like a single-adapter model at inference time.
+
+\subsection{Aggregate versus category-level performance}
+Dynamic routing improves micro-F1, subset accuracy, and micro-AP but reduces macro-F1. This indicates that gains in pooled performance do not necessarily extend to rare or weakly supported categories. Applications that require balanced performance across categories should monitor macro-F1 and per-category errors.
+
+\subsection{Why routing may collapse}
+\begin{itemize}
+\item The gate receives only the CLS vector, which may not provide enough signal to distinguish language or aspect patterns.
+\item All four adapters have identical architecture and are trained jointly, so they may not develop distinct specializations.
+\item The training objective does not include an explicit load-balancing, diversity, or entropy regularization term.
+\item One adapter may become dominant early in training and suppress the contribution of the others.
+\item The multilingual task may not require strongly different adapter mixtures for different reviews.
+\end{itemize}
+
+\section{Limitations}
+\begin{itemize}
+\item The study uses only the Coursera partition of M-ABSA; findings may not transfer to other domains.
+\item Only three seeds are used, limiting statistical power.
+\item The 21 language versions are translations of the same source reviews, so language-level results are not independent.
+\item The original 31-label vocabulary includes annotation artifacts; the cleaned 26-label analysis addresses this only as a sensitivity check.
+\item The micro-AP comparison uses three seed-level paired differences and therefore has limited statistical power.
+\item Development-set predictions and routing weights were not retained; therefore, a development-only fixed-mixture or dominant-adapter ablation could not be performed.
+\item The study evaluates one adapter configuration: four adapters, bottleneck size 64, final-layer adapters, and CLS-based routing.
+\item Efficiency measurements use one GPU configuration and one checkpoint per model.
+\end{itemize}
+
+\section{Future Work}
+\begin{itemize}
+\item Save development-set predictions and routing weights to enable development-only fixed-mixture and dominant-adapter ablations.
+\item Train models with five or more seeds and estimate seed-population uncertainty.
+\item Add routing entropy, load-balancing, or diversity regularization.
+\item Compare dynamic routing with a learned global mixture vector shared across all reviews.
+\item Analyze per-language routing weights and per-category errors.
+\item Compare with AdapterFusion, LoRA-style methods, and other mixture-of-adapter approaches under matched parameter budgets.
+\item Evaluate additional M-ABSA domains and external multilingual ABSA datasets.
+\end{itemize}
+
+\section{Conclusion}
+This study evaluated dynamic adapter routing for multilingual aspect-category detection on the official Coursera partition of M-ABSA. A four-adapter dynamic-routing model achieved a mean micro-F1 of 0.5261 and subset accuracy of 0.3231, improving over an XLM-RoBERTa-base baseline by 1.29 and 2.94 percentage points, respectively. It also improved both metrics on average in all 21 languages, while a same-size uniform-averaging control did not produce consistent gains. Dynamic routing further improved micro-AP from 0.5950 to 0.6140.
+
+The routing model adds only 399,620 parameters and increases GPU inference latency by 4.15\%. However, routing-weight analysis shows that the learned gate collapses to near-deterministic selection of one adapter in each seed, with the same adapter dominating all 21 languages. Normalized routing entropy remains low. Therefore, although dynamic routing improves aggregate multilingual performance, the evidence does not establish genuine input-adaptive adapter specialization.
+
+\section*{CRediT authorship contribution statement}
+\textbf{Jajula Hari Babu:} Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Visualization, Writing -- original draft. \textbf{P. Pedda Sadhu Naik:} Supervision, Project administration, Writing -- review \& editing.
+
+\section*{Declaration of competing interest}
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+\section*{Funding}
+This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+During the preparation of this work, the authors used Claude in order to assist with language editing, code documentation, and manuscript preparation support. After using this tool, the authors reviewed and edited the content as needed and take full responsibility for the content of the published article.
+
+\section*{Data availability}
+The M-ABSA dataset is publicly available at \url{https://github.com/swaggy66/M-ABSA}. The analysis outputs, prediction summaries, routing-weight summaries, micro-AP results, statistical-analysis files, and figures supporting the reported findings are retained by the authors and will be made publicly available upon acceptance.
+
+\bibliographystyle{elsarticle-num}
+\bibliography{references}
+
+\end{document}
